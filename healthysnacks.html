@@ -1,0 +1,787 @@
+<html lang="en">
+
+<head>
+    <title>QuickSnacks || All about Snaks</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="rstyle.css">
+    <link rel="stylesheet" href="caro.css">
+    <script src="java/main.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Animation Links -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <!-- Swipper Slider -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+
+</head>
+
+<body onload="rabeet()">
+    <div class="tweenoverlay">
+        <h1>
+            <img src="img/qshs.png" class="w-100" alt="">
+        </h1>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-sm-dark navbar-dark   fixed-top" id="mynav">
+        <a class="navbar-brand" href="index.html"> <img src="favicon.png" height="70" alt=""> </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pr-5" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html" id="link_hai" style="text-transform: uppercase;"> Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="gallery.html" id="link_hai"
+                        style="text-transform: uppercase;">Gallery</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle pl-4" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">Various</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item active" href="healthysnacks.html">Healthy Snacks</a>
+                        <a class="dropdown-item" href="snackkids.html">Snacks For Kids</a>
+                        <a class="dropdown-item" href="stomach.html">Easy on Stomach Snacks</a>
+                        <a class="dropdown-item" href="smoothies.html">Smoothies</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="recipe.html" id="link_hai"
+                        style="text-transform: uppercase;">Recipies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.facebook.com/abdulwahab.illahi.7"
+                        id="link_hai"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.instagram.com/abdulwahab_302"
+                        id="link_hai"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://twitter.com/" id="link_hai"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Main Page -->
+    <section class="bannerhealcat">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-md-12 col-sm-6">
+                    <h2 data-aos="flip-up" style=" font-family: billy;font-size: 100px;">
+                        <b> Healthy Snacks</b>
+                    </h2>
+                    <p data-aos="fade-in" style="font-family: ssign, cursive; font-size: 40px;">
+                        Healthy snacks help to
+                        satisfy hunger between meals and boost energy. They can also round out the diet, ensuring that
+                        children are getting all of the nutrients they need to fuel their growth and development.
+                        Learning to eat and enjoy healthy snacks encourages kids to develop healthy eating habits
+                    </p>
+                    <br>
+                    <span class="d-flex flex-wrap justify-content-center align-item-center mt-5">
+                        <div class="mt-5">
+                            <div class="mt-5">
+                                <a href="#nichy">
+                                    <div class="icon-scroll"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br id="nichy">
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="img\for owl/club sadwich.png" alt="Image" class="img-fluid">
+                    <img src="Recipes\Easy On Stomach\club sandwish/Classic-Club-Sandwich-Spend-With-Pennies-21.jpg"
+                        alt="Image" class="img-fluid">
+                    <img src="Recipes\Easy On Stomach\club sandwish/Classic-Club-Sandwich-Spend-With-Pennies-22.jpg"
+                        alt="Image" class="img-fluid">
+                    <img src="Recipes\Easy On Stomach\club sandwish/recipe-image-legacy-id-653594_11-111eb65.webp"
+                        alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Club
+                                Sandwiches</span> </h2>
+                        <p class="lead">A club sandwich, also called a clubhouse sandwich, is a sandwich of bread
+                            (traditionally toasted), sliced cooked poultry, ham or fried bacon, lettuce, tomato, and
+                            mayonnaise. ... Modern versions frequently have two layers which are separated by an
+                            additional slice of bread.
+                        </p>
+                        <br>
+                        <p>
+                            By the Technique of <b> Quick Snacks </b></p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>4 rashers streaky bacon</p>
+                        <p>3 slices white bread</p>
+                        <p>1 tbsp mayonnaise</p>
+                        <p>1 hard-boiled egg, sliced</p>
+                        <p>1 tomato, sliced</p>
+                        <p>few thick slices chicken or turkey breast</p>
+                        <p>small handful salad leaves</p>
+                        <p>handful crisps, to serve, if you like</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Heat grill to High and cook the bacon, turning halfway through, until crisp. Toast the bread
+                            and spread one slice with the mayo.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Layer on the egg, tomato and bacon, then top with another slice of bread. Add the chicken or
+                            turkey, bacon, then lettuce. Finish with the final slice of bread and cut into quarters.
+                            Secure with cocktail sticks and serve with crisps, if you like.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p>220 Calories </p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/1.jpg" alt="Image" class="img-fluid">
+                    <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/2.jpg" alt="Image" class="img-fluid">
+                    <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/3.png" alt="Image" class="img-fluid">
+                    <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/4.jpg" alt="Image" class="img-fluid">
+                    <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/5.jpg" alt="Image" class="img-fluid">
+                    <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/6.jpg" alt="Image" class="img-fluid">
+
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Chicken
+                                Korean Slider</span> </h2>
+                        <p class="lead">This is going to become a party food staple at our house. And since all the hard
+                            work is done by the slow cooker, it’s optimal for easy entertaining. Need a healthier or
+                            gluten free option? Just use bibb lettuce instead of rolls and make sure to grab gluten-free
+                            soy sauce. Boom. Now you have gluten-free slow cooker Korean chicken sliders.
+                        </p>
+                        <br>
+                        <p>
+                            By the Technique of <b> Quick Snacks </b></p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>2 pounds boneless, skinless chicken breasts and/or thighs</p>
+                        <p>1/4 cup gochujang</p>
+                        <p>1/4 cup soy sauce</p>
+                        <p>1 small red onion, grated</p>
+                        <p>4 cloves garlic, grated</p>
+                        <p>1” piece of ginger, peeled and grated</p>
+                        <p>3 tablespoons mirin</p>
+                        <p>3 tablespoons brown sugar</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <p>1 teaspoon sesame oil</p>
+                        <p>1/4 teaspoon pepper</p>
+                        <p>1 teaspoon arrowroot powder or cornstarch</p>
+                        <p>1/4 cup water</p>
+                        <p>Slider buns and/or Bibb lettuce</p>
+                        <p>Kimchi</p>
+                        <p>Avocado, thinly sliced</p>
+                        <p>Lightly pickled bean sprouts (recipe below)</p>
+                        <p>Gochujang Aioli (recipe below)</p>
+                        <p>1 bunch scallions, chopped</p>
+                        <p>Sesame seeds</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Spray the inside of your slow cooker bowl with nonstick cooking spray. Stir together
+                            gochujang, soy sauce, onion, garlic, ginger, mirin, brown sugar, sesame oil, and pepper in
+                            slow cooker bowl until fully combined. Add chicken and stir to evenly coat.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Cover slow cooker and cook on low for about 4 hours, until the chicken is fully cooked.
+                            Remove chicken to a large bowl. Using 2 forks, shred chicken. Meanwhile, fully combine
+                            arrowroot powder/cornstarch with water in a small bowl. Pour into the sauce in slow cooker,
+                            stirring to incorporate. Add chicken back into slow cooker and stir into sauce. Cook for
+                            10-15 more minutes.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <p class="lead" style="font-family: wish;">Step 3</p>
+                        <p>Place a bit of chicken on each bun or lettuce wrap, topping with kimchi, avocado, lightly
+                            pickled bean sprouts, gochujang aioli, scallions, and sesame seeds. Devour immediately.</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>3 Person</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p>75g Carbs</p>
+                        <p>52g Fat</p>
+                        <p>33g Protein</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 4 hours 10 minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/Healthy Snacks/PAKOORA/pakora1.png" alt="Image" class="img-fluid">
+                    <img src="Recipes/Healthy Snacks/PAKOORA/pakora2.png" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Pakory</span>
+                        </h2>
+                        <p class="lead">A club sandwich, also called a clubhouse sandwich, is a sandwich of bread
+                            (traditionally toasted), sliced cooked poultry, ham or fried bacon, lettuce, tomato, and
+                            mayonnaise. ... Modern versions frequently have two layers which are separated by an
+                            additional slice of bread.
+                        </p>
+                        <br>
+                        <p>
+                            By the Technique of <b> Quick Snacks </b></p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>4 rashers streaky bacon</p>
+                        <p>3 slices white bread</p>
+                        <p>1 tbsp mayonnaise</p>
+                        <p>1 hard-boiled egg, sliced</p>
+                        <p>1 tomato, sliced</p>
+                        <p>few thick slices chicken or turkey breast</p>
+                        <p>small handful salad leaves</p>
+                        <p>handful crisps, to serve, if you like</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Heat grill to High and cook the bacon, turning halfway through, until crisp. Toast the bread
+                            and spread one slice with the mayo.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Layer on the egg, tomato and bacon, then top with another slice of bread. Add the chicken or
+                            turkey, bacon, then lettuce. Finish with the final slice of bread and cut into quarters.
+                            Secure with cocktail sticks and serve with crisps, if you like.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p>220 Calories </p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes\Healthy Snacks\Vietnamese Fresh Spring Roll/bynj.webp" alt="Image"
+                        class="img-fluid">
+                    <img src="Recipes\Healthy Snacks\Vietnamese Fresh Spring Roll/cffdk.webp" alt="Image"
+                        class="img-fluid">
+                    <img src="Recipes\Healthy Snacks\Vietnamese Fresh Spring Roll/gfdkfgv.webp" alt="Image"
+                        class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Spring
+                                Roll</span>
+                        </h2>
+                        <p class="lead">A best springrolls, also called a rolhouse rolls, is a rolls of bread
+                            (traditionally toasted), sliced cooked poultry, ham or fried bacon, lettuce, tomato, and
+                            mayonnaise. ... Modern versions frequently have two layers which are separated by an
+                            additional slice of bread.
+                        </p>
+                        <br>
+                        <p>
+                            By the Technique of <b> Quick Snacks </b></p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>2 ounces rice vermicelli</p>
+                        <p>8 rice wrappers (8.5 inch diameter)</p>
+                        <p>8 large cooked shrimp - peeled, deveined and cut in half</p>
+                        <p>1 ⅓ tablespoons chopped fresh Thai basil</p>
+                        <p>3 tablespoons chopped fresh mint leaves</p>
+                        <p>4 teaspoons fish sauce</p>
+                        <p>1 clove garlic, minced</p>
+                        <p>½ teaspoon garlic chili sauce</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Bring a medium saucepan of water to boil. Boil rice vermicelli 3 to 5 minutes, or until al
+                            dente, and drain.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Fill a large bowl with warm water. Dip one wrapper into the hot water for 1 second to soften.
+                            Lay wrapper flat. In a row across the center, place 2 shrimp halves, a handful of
+                            vermicelli, basil, mint, cilantro and lettuce, leaving abo</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <p class="lead" style="font-family: wish;">Step 3</p>
+                        <p>In a small bowl, mix the fish sauce, water, lime juice, garlic, sugar and chili sauce.</p>
+                        <p class="lead" style="font-family: wish;">Step 4</p>
+                        <p>In another small bowl, mix the hoisin sauce and peanuts.</p>
+                        <p class="lead" style="font-family: wish;">Step 5</p>
+                        <p>Serve rolled spring rolls with the fish sauce and hoisin sauce mixtures.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>2 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p>669 Calories </p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 10 to 20 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/Healthy Snacks/Chicken Caesar Salad on a Stick/bbnkujh.webp" alt="Image"
+                        class="img-fluid">
+                    <img src="Recipes/Healthy Snacks/Chicken Caesar Salad on a Stick/cfkck,b.webp" alt="Image"
+                        class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Chicken
+                                Caesar Salad</span>
+                        </h2>
+                        <p class="lead">Caesar salad was named after Julius Caesar because it was his favorite dish. ...
+                            Caesar salad is said to have been devised in Tijuana in 1924 by Italian chef Caesar Cardini.
+                        </p>
+                        <br>
+                        <p>
+                            By the Technique of <b> Quick Snacks </b></p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>8 croutons</p>
+                        <p>8 (1-inch) wedges romaine lettuce</p>
+                        <p>8 (1 ounce) cubes cooked chicken</p>
+                        <p>8 (1/2-inch) cubes Parmesan cheese, or to taste</p>
+                        <p>8 bamboo toothpicks</p>
+                        <p>8 teaspoons Caesar salad dressing</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Thread a crouton, romaine lettuce wedge, chicken cube, and Parmesan cheese cube onto each
+                            toothpick, respectively. Arrange toothpicks on a serving platter and drizzle Caesar salad
+                            dressing over each.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>Family</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p>112 Calories </p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">QuickSnacks <i>Made By Our Team </i> for Traditionally, snacks are
+                        prepared from ingredients commonly available at home without a great deal of preparation. Often
+                        cold cuts, fruits, leftovers, nuts, sandwiches, and sweets are used as snacks. With the spread
+                        of convenience stores, packaged snack foods became a significant business.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="healthysnacks.html">Healty Snacks</a></li>
+                        <li><a href="snackkids.html">Snacks For Kids</a></li>
+                        <li><a href="stomach.html">Easy On Stomach</a></li>
+                        <li><a href="smoothies.html">Smoothies</a></li>
+                        <li><a href="recipe.html">Add Your Category</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#AboutAdd">About Us</a></li>
+                        <li><a href="#ContactUs">Contact Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="recipe.html">Recipies</a></li>
+                        <li><a
+                                href="https://www.privacypolicygenerator.info/live.php?token=DM1dmue2qKFpGy6lRABszBf6rOiQdlCh">Privacy
+                                Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Quick Snaks</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/rabeetahmed786"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="twitter" target="_blank" href="https://twitter.com/RabeetAhmed12"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a class="instagram" target="_blank" href="https://www.instagram.com/rabeetahmed786"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a class="youtube" target="_blank"
+                                href="https://www.youtube.com/channel/UCK6B4e5WMOiGGxdeqYq50XQ"><i
+                                    class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'slide',
+            once: false
+        });
+        var siteCarousel = function () {
+            if ($('.nonloop-block-13').length > 0) {
+                $('.nonloop-block-13').owlCarousel({
+                    center: false,
+                    items: 1,
+                    loop: true,
+                    stagePadding: 0,
+                    margin: 0,
+                    autoplay: true,
+                    nav: true,
+                    responsive: {
+                        600: {
+                            margin: 0,
+                            nav: true,
+                            items: 2
+                        },
+                        1000: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 3
+                        },
+                        1200: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 4
+                        }
+                    }
+                });
+            }
+
+            $('.slide-one-item').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                autoplay: true,
+                pauseOnHover: false,
+                nav: true,
+            });
+
+            $('.slide-one-item-alt').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+            $('.slide-one-item-alt-text').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+
+
+            $('.custom-next').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('next.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+            });
+            $('.custom-prev').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+            });
+
+        };
+        siteCarousel();
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    $("#mynav").css("background-color", "rgba(0, 0, 0,.5)");
+                }
+                else {
+                    $("#mynav").css("background-color", "transparent");
+                }
+            })
+        })
+        var preloader = document.getElementsByClassName("overlay");
+        function rabeet() {
+            preloader.style.display = 'none';
+        }
+        TweenMax.to(".tweenoverlay h1", 2, {
+            opacity: 0,
+            y: -60,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.to(".tweenoverlay", 2, {
+            delay: 1,
+            top: "-110%",
+            ease: Expo.easeInOut
+        })
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../package/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- Start of Tawk.to Script -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/607b53ca067c2605c0c36d4f/1f3gruk2i';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!-- End of Tawk.to Script -->
+</body>
+
+</html>

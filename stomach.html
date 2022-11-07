@@ -1,0 +1,472 @@
+<html lang="en">
+
+<head>
+    <title>QuickSnacks || E-Project By Rabeet Ahmed</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="rstyle.css">
+    <link rel="stylesheet" href="caro.css">
+    <script src="java/main.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Animation Links -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <!-- Swipper Slider -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+
+</head>
+
+<body onload="rabeet()">
+    <div class="tweenoverlay">
+        <h1>
+            <img src="img/easyonstomach.png" class="w-100" alt="">
+        </h1>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-sm-dark navbar-dark   fixed-top" id="mynav">
+        <a class="navbar-brand" href="index.html"> <img src="favicon.png" height="70" alt=""> </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pr-5" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html" id="link_hai" style="text-transform: uppercase;"> Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="gallery.html" id="link_hai"
+                        style="text-transform: uppercase;">Gallery</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle pl-4" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">Various</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="healthysnacks.html">Healthy Snacks</a>
+                        <a class="dropdown-item" href="snackkids.html">Snacks For Kids</a>
+                        <a class="dropdown-item active" href="stomach.html">Easy on Stomach Snacks</a>
+                        <a class="dropdown-item" href="smoothies.html">Smoothies</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="recipe.html" id="link_hai"
+                        style="text-transform: uppercase;">Recipies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.facebook.com/Abdulwahab.illahi.7"
+                        id="link_hai"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.instagram.com/abdulwahab_302"
+                        id="link_hai"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://twitter.com/" id="link_hai"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Main Page -->
+    <section class="bannerstomach">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-md-12 col-sm-6">
+                    <h2 data-aos="flip-up" style=" font-family: billy;font-size: 100px;">
+                        <b> Easy On Stomach</b>
+                    </h2>
+                    <p data-aos="fade-in" style="font-family: ssign, cursive; font-size: 40px;">Some people have health
+                        conditions that make many foods challenging for them to digest. What healthful dietary choices
+                        can a person make if they have trouble with digestion?
+                    </p>
+                    <br>
+                    <span class="d-flex flex-wrap justify-content-center align-item-center mt-5">
+                        <div class="mt-5">
+                            <div class="mt-5">
+                                <a href="#nichy">
+                                    <div class="icon-scroll"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br id="nichy">
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 " data-aos="fade-right" data-aos-duration="2000">
+                <img src="https://i.pinimg.com/564x/09/d9/04/09d904b938297def5ccbaa60c6424591.jpg" alt="">
+            </div>
+            <div class="col-md-6" data-aos="zoom-out" >
+                <h1 style="font-family: ssign; font-size: 65px;">Almonds</h1>
+                <h1 style="font-family: bland;">Advantages</h1>
+                <p>The almond is a species of tree native to Iran and surrounding countries but widely cultivated
+                    elsewhere. The almond
+                    is also the name of the edible and widely cultivated seed of this tree.</p>
+                <h1 style="font-family: bland;">Where it to purchase ?</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115869.4553165767!2d67.068581813328!3d24.832392947121782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6e85d23535371f0!2sDry%20fruit%20marketing!5e0!3m2!1sen!2s!4v1619895618133!5m2!1sen!2s"
+                    width="500" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                <img class="w-100 p-3"
+                    src="https://www.byrdie.com/thmb/pYSGA6kQ77kPI31bkaA5QnlcmYo=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cdn.cliqueinc.com__cache__posts__234345__7-practically-medicinal-foods-that-help-ease-stomach-pain-2391640.700x0c-f432210c49ff405081efb6acc22f6c86.jpg"
+                    alt="">
+            </div>
+            <div class="col-md-6" data-aos="zoom-out">
+                <h1 style="font-family: ssign; font-size: 65px;">Papaya</h1>
+                <h1 style="font-family: bland;">Advantages</h1>
+                <p>A rich source of proteolytic enzymes, papaya helps along the digestive process, says Fahad. She
+                    further adds that some of these enzymes (papain and chymopapain) help to break down proteins and
+                    soothe the stomach by promoting a healthy acidic environment.</p>
+                <h1 style="font-family: bland;">Where it to purchase ?</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115869.4553165767!2d67.068581813328!3d24.832392947121782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6e85d23535371f0!2sDry%20fruit%20marketing!5e0!3m2!1sen!2s!4v1619895618133!5m2!1sen!2s"
+                    width="500" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                <img class="w-100 p-3"
+                    src="https://www.byrdie.com/thmb/rv8eRZQhBxKqB_hk30r7NyvWx0E=/564x641/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cdn.cliqueinc.com__cache__posts__234345__7-practically-medicinal-foods-that-help-ease-stomach-pain-2391641.700x0c-02fc8aaca6d142f9bb195f0bffcc1764.jpg"
+                    alt="">
+            </div>
+            <div class="col-md-6" data-aos="zoom-out">
+                <h1 style="font-family: ssign; font-size: 65px;">Yoghurt</h1>
+                <h1 style="font-family: bland;">Advantages</h1>
+                <p>While not everyone can tolerate dairy, for those who can, Fahad recommends eating organic plain
+                    grass-fed yoghurt, as it aids in digestion by restoring good bacteria in the gut,4
+                    thus reducing the uncomfortable feeling of belly bloat.</p>
+                <h1 style="font-family: bland;">Where it to purchase ?</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115869.4553165767!2d67.068581813328!3d24.832392947121782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6e85d23535371f0!2sDry%20fruit%20marketing!5e0!3m2!1sen!2s!4v1619895618133!5m2!1sen!2s"
+                    width="500" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                <img class="w-100 p-3"
+                    src="https://www.byrdie.com/thmb/U8sacmBEplOO4vPs6LBPqRlkemE=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cdn.cliqueinc.com__cache__posts__234345__7-practically-medicinal-foods-that-help-ease-stomach-pain-2391645.700x0c-e8b1371845a94ad2acf764cc953440c6.jpg"
+                    alt="">
+            </div>
+            <div class="col-md-6" data-aos="zoom-out">
+                <h1 style="font-family: ssign; font-size: 65px;">Mint</h1>
+                <h1 style="font-family: bland;">Advantages</h1>
+                <p>If you experience acid reflux, Smith recommends staying clear of mint. However, if that isn’t an
+                    issue, Smith says mint is a great natural remedy for indigestion, as well as belly bloat.</p>
+                <h1 style="font-family: bland;">Where it to purchase ?</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115869.4553165767!2d67.068581813328!3d24.832392947121782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6e85d23535371f0!2sDry%20fruit%20marketing!5e0!3m2!1sen!2s!4v1619895618133!5m2!1sen!2s"
+                    width="500" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                <img class="w-100 p-3"
+                    src="https://www.byrdie.com/thmb/uFmVXk0wjShccDQm6Pzn4u88E74=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cdn.cliqueinc.com__cache__posts__234345__7-practically-medicinal-foods-that-help-ease-stomach-pain-2391638.700x0c-3ee2eab6236d488c91b43797891f4b4d.jpg"
+                    alt="">
+            </div>
+            <div class="col-md-6" data-aos="zoom-out">
+                <h1 style="font-family: ssign; font-size: 65px;">Bananas</h1>
+                <h1 style="font-family: bland;">Advantages</h1>
+                <p>Farah Fahad, MS, RD, dietitian, recommends reaching for a banana when dealing with a volatile
+                    stomach, as it happens to be one of the easier to digest foods. Plus, she says bananas are a good
+                    source of pectin, which if you’re dealing with diarrhea, helps to bind the stool.</p>
+                <h1 style="font-family: bland;">Where it to purchase ?</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115869.4553165767!2d67.068581813328!3d24.832392947121782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6e85d23535371f0!2sDry%20fruit%20marketing!5e0!3m2!1sen!2s!4v1619895618133!5m2!1sen!2s"
+                    width="500" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Site footer -->
+    <footer class="site-footer" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">QuickSnacks <i>Made By Our Team</i> for Traditionally, snacks are
+                        prepared from ingredients commonly available at home without a great deal of preparation. Often
+                        cold cuts, fruits, leftovers, nuts, sandwiches, and sweets are used as snacks. With the spread
+                        of convenience stores, packaged snack foods became a significant business.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="healthysnacks.html">Healty Snacks</a></li>
+                        <li><a href="snackkids.html">Snacks For Kids</a></li>
+                        <li><a href="stomach.html">Easy On Stomach</a></li>
+                        <li><a href="smoothies.html">Smoothies</a></li>
+                        <li><a href="recipe.html">Add Your Category</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#AboutAdd">About Us</a></li>
+                        <li><a href="#ContactUs">Contact Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="recipe.html">Recipies</a></li>
+                        <li><a
+                                href="https://www.privacypolicygenerator.info/live.php?token=DM1dmue2qKFpGy6lRABszBf6rOiQdlCh">Privacy
+                                Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Quick Snacks</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/rabeetahmed786"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="twitter" target="_blank" href="https://twitter.com/RabeetAhmed12"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a class="instagram" target="_blank" href="https://www.instagram.com/rabeetahmed786"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a class="youtube" target="_blank"
+                                href="https://www.youtube.com/channel/UCK6B4e5WMOiGGxdeqYq50XQ"><i
+                                    class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'slide',
+            once: false
+        });
+        var siteCarousel = function () {
+            if ($('.nonloop-block-13').length > 0) {
+                $('.nonloop-block-13').owlCarousel({
+                    center: false,
+                    items: 1,
+                    loop: true,
+                    stagePadding: 0,
+                    margin: 0,
+                    autoplay: true,
+                    nav: true,
+                    responsive: {
+                        600: {
+                            margin: 0,
+                            nav: true,
+                            items: 2
+                        },
+                        1000: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 3
+                        },
+                        1200: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 4
+                        }
+                    }
+                });
+            }
+
+            $('.slide-one-item').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                autoplay: true,
+                pauseOnHover: false,
+                nav: true,
+            });
+
+            $('.slide-one-item-alt').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+            $('.slide-one-item-alt-text').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+
+
+            $('.custom-next').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('next.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+            });
+            $('.custom-prev').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+            });
+
+        };
+        siteCarousel();
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    $("#mynav").css("background-color", "rgba(0, 0, 0,.5)");
+                }
+                else {
+                    $("#mynav").css("background-color", "transparent");
+                }
+            })
+        })
+        var preloader = document.getElementsByClassName("overlay");
+        function rabeet() {
+            preloader.style.display = 'none';
+        }
+        TweenMax.to(".tweenoverlay h1", 2, {
+            opacity: 0,
+            y: -60,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.to(".tweenoverlay", 2, {
+            delay: 1,
+            top: "-110%",
+            ease: Expo.easeInOut
+        })
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../package/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- Start of Tawk.to Script -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/607b53ca067c2605c0c36d4f/1f3gruk2i';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!-- End of Tawk.to Script -->
+</body>
+
+</html>

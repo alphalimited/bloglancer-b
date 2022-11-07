@@ -1,0 +1,1408 @@
+<html lang="en">
+
+<head>
+    <title>QuickSnacks || All About Snaks</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="rstyle.css">
+    <link rel="stylesheet" href="caro.css">
+    <script src="java/main.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Animation Links -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <!-- Swipper Slider -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+</head>
+
+<body onload="rabeet()">
+    <div class="tweenoverlay">
+        <h1>
+            <img src="img/qsrecipe.png" class="w-100" alt="">
+        </h1>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-sm-dark navbar-dark   fixed-top" id="mynav">
+        <a class="navbar-brand" href="index.html"> <img src="favicon.png" height="70" alt=""> </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pr-5" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" id="link_hai" style="text-transform: uppercase;"> Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="gallery.html" id="link_hai"
+                        style="text-transform: uppercase;">Gallery</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle pl-4" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">Various</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="healthysnacks.html">Healthy Snacks</a>
+                        <a class="dropdown-item" href="snackkids.html">Snacks For Kids</a>
+                        <a class="dropdown-item" href="stomach.html">Easy on Stomach Snacks</a>
+                        <a class="dropdown-item" href="smoothies.html">Smoothies</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link pl-4" href="#" id="link_hai" style="text-transform: uppercase;">Recipies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.facebook.com/abdulwahab.illahi.7"
+                        id="link_hai"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.instagram.com/abdulwahab_302"
+                        id="link_hai"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://twitter.com/" id="link_hai"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="bannerrecipe">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-md-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <h1 style="font-family: thebold;">Check Out Recipes</h1>
+                            </div>
+                            <a href="#slideas">
+                                <img src="img/circled-chevron-right.png" class="imgrotatera" height="50" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="slideas">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <div id="carouselId" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselId" data-slide-to="1"></li>
+                            <li data-target="#carouselId" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="img/recipecaro/nooodles.png" class="w-100" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 style="font-family: thebold;">Special Noodles</h3>
+                                    <p style="font-family: ssign; font-size: 30px; text-transform: lowercase;">Noodles
+                                        are a type of food made from unleavened dough which is rolled flat and cut.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/recipecaro/chips.png" class="w-100" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 style="font-family: thebold;">Special Chips</h3>
+                                    <p style="font-family: bland; font-size: 30px;">Potato chips (often just chips), or
+                                        crisps (in British and Irish English),</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/recipecaro/milkshake.png" class="w-100" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 style="font-family: thebold;">Special Shakes</h3>
+                                    <p style="font-family: bland; font-size: 30px;">A milkshake is a sweet drink made by
+                                        blending milk, ice cream, and flavorings or sweeteners.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="mt-5">
+                        <center>
+                            <h1 style="font-family: billy; font-size: 60px;">Pasta Salad</h1>
+                        </center>
+                    </div>
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/rpics//pasta salad/pasta salad.png" class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/rpics//pasta salad/1.png" class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/rpics//pasta salad/3.png" class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/rpics//pasta salad/2.png" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Ingredients</h3>
+                                            <ul>
+                                                <li class="reci">3 cups uncooked fusilli pasta</li>
+                                                <li class="reci">2 heaping cups halved cherry tomatoes</li>
+                                                <li class="reci">1 ½ cups cooked chickpeas, drained and rinsed</li>
+                                                <li class="reci">2 cups arugula</li>
+                                                <li class="reci">1 cup Persian cucumbers, sliced into thin half moons
+                                                </li>
+                                                <li class="reci">1 cup crumbled feta cheese</li>
+                                                <li class="reci">1 cup basil leaves, torn</li>
+                                                <li class="reci">½ cup minced parsley</li>
+                                                <li class="reci">½ cup chopped mint</li>
+                                                <li class="reci">¼ cup toasted pine nuts</li>
+                                            </ul>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Dressing</h3>
+                                            <ul>
+                                                <li class="reci">¼ cup extra-virgin olive oil, more for drizzling</li>
+                                                <li class="reci">3 tablespoons lemon juice</li>
+                                                <li class="reci">1 teaspoon Dijon mustard</li>
+                                                <li class="reci">3 garlic cloves, minced</li>
+                                                <li class="reci">1 teaspoon herbes de Provence, or dried Italian
+                                                    seasoning
+                                                </li>
+                                                <li class="reci">¼ teaspoon red pepper flakes</li>
+                                                <li class="reci">¾ teaspoon sea salt</li>
+                                            </ul>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Instructions</h3>
+                                            <p class="reci">1: Bring a large pot of salted water to a boil. Prepare the
+                                                pasta
+                                                according to the package directions, or until slightly past al
+                                                dente.</p>
+                                            <p class="reci">2: Meanwhile, make the dressing. In a small bowl, whisk
+                                                together the
+                                                olive oil, lemon juice, mustard, garlic, herbes de Provence, red
+                                                pepper flakes, and salt. (Note: the dressing will have a strong
+                                                flavor, it’ll mellow once it coats all of the pasta salad
+                                                ingredients).</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <p class="reci">3: Drain the pasta, toss it with a little olive oil (so that
+                                                it doesn’t
+                                                stick together) and let it cool to room temp. Transfer to a large
+                                                bowl with the tomatoes, chickpeas, arugula, cucumbers, feta cheese,
+                                                basil, parsley, mint, and pine nuts. Pour the dressing and toss to
+                                                coat. Season to taste with more lemon, salt, pepper, and/or a
+                                                drizzle of olive oil, if desired, and serve.</p>
+                                            <div class="d-flex flex-wrap text-align-center justify-content-center">
+                                                <span style="font-family: thebold;"><img
+                                                        src="https://img.icons8.com/fluent-systems-filled/48/000000/circled-left-2--v2.png"
+                                                        height="20" />RETURN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <center>
+                            <h1 style="font-family: billy; font-size: 60px;">Special Noodles</h1>
+                        </center>
+                    </div>
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/rpics/special noodles/noodles.png" class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/rpics/special noodles/noodles2.png" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Ingredients</h3>
+                                            <ul>
+                                                <li class="reci">8 ounces soba noodles, pasta, or rice noodles</li>
+                                                <li class="reci">Shiitake mushrooms</li>
+                                                <li class="reci">Eggplant</li>
+                                                <li class="reci">Red peppers</li>
+                                                <li class="reci">Chopped scallions</li>
+                                                <li class="reci">Sesame seeds</li>
+                                                <li class="reci">Peanut Sauce</li>
+                                                <li class="reci">Crushed peanuts</li>
+                                            </ul>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Instructions</h3>
+                                            <p class="reci">1: Cook your noodles according to the package directions.
+                                            </p>
+                                            <p class="reci">2: Heat a skillet to medium, add a little oil. Add the
+                                                mushrooms & eggplant and let cook for a few minutes until the mushrooms
+                                                and eggplant become soft. Add the red pepper and scallions and cook for
+                                                a few minutes more. Add a splash of soy sauce and remove the pan from
+                                                the heat.</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <p class="reci">3: Toss noodles with peanut sauce and add the veggies.</p>
+                                            <p class="reci">4: Top with sesame seeds and crushed peanuts. Serve warm or
+                                                cold.</p>
+                                            <div class="d-flex flex-wrap text-align-center justify-content-center">
+                                                <span style="font-family: thebold;"><img
+                                                        src="https://img.icons8.com/fluent-systems-filled/48/000000/circled-left-2--v2.png"
+                                                        height="20" />RETURN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <center>
+                            <h1 style="font-family: billy; font-size: 60px;">Strayberry Icecream</h1>
+                        </center>
+                    </div>
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Smoothies/ice cream S/Homemade-Strawberry-Ice-Cream-Recipe-80.jpg"
+                                                class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Smoothies/ice cream S/Homemade-Strawberry-Ice-Cream-Recipe-27.jpg"
+                                                class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Smoothies/ice cream S/Homemade-Strawberry-Ice-Cream-Recipe-12.jpg"
+                                                class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Ingredients</h3>
+                                            <li class="reci">1/2 cups strawberries, hulled and diced</li>
+                                            <li class="reci">2 Tbsp honey</li>
+                                            <li class="reci">1/2 cup granulated sugar</li>
+                                            <li class="reci">1 tsp lemon juice</li>
+                                            <li class="reci">1 cup heavy whipping cream</li>
+                                            <li class="reci">1/2 cup half and half</li>
+                                            <li class="reci">1 tsp vanilla extract</li>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Instructions</h3>
+                                            <p class="reci">1: In a large bowl, mix strawberries, honey, sugar, and
+                                                lemon juice. Allow to sit 15-20 minutes, or until the strawberries have
+                                                released their juices.</p>
+                                            <p class="reci">2: Mash the mixture with a potato masher, fork, or pastry
+                                                cutter until there are no longer any large strawberry pieces (if you
+                                                prefer a smooth ice cream, use a blender or food processor instead).</p>
+                                            <p class="reci">3: To the strawberries, mix heavy cream, half and half, and
+                                                vanilla extract. Stir just until combined.</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+
+                                            <p class="reci">4: Pour the mixture into your ice cream maker, and follow
+                                                your manufacturer's instructions (mine took about 15-20 minutes to
+                                                churn). You can eat the ice cream soft-serve, or freeze it in an
+                                                airtight container for 3-4 hours to thicken it up slightly. For best
+                                                results, allow the ice cream to sit at room temperature for about 5-10
+                                                minutes to soften before serving.</p>
+                                            <div class="d-flex flex-wrap text-align-center justify-content-center">
+                                                <span style="font-family: thebold;"><img
+                                                        src="https://img.icons8.com/fluent-systems-filled/48/000000/circled-left-2--v2.png"
+                                                        height="20" />RETURN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <center>
+                            <h1 style="font-family: billy; font-size: 60px;">Korean Chicken Slider</h1>
+                        </center>
+                    </div>
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/1.jpg" class="w-100"
+                                                alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/2.jpg" class="w-100"
+                                                alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/3.png" class="w-100"
+                                                alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/4.jpg" class="w-100"
+                                                alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/5.jpg" class="w-100"
+                                                alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\Korean Chicken Sliders/6.jpg" class="w-100"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Ingredients</h3>
+                                            <h4 style="font-family: thebold;">FOR Chicken</h4>
+                                            <li class="reci">2 tablespoons gochujang</li>
+                                            <li class="reci">1 tablespoon rice vinegar</li>
+                                            <li class="reci">2 teaspoons soy sauce</li>
+                                            <li class="reci">2 teaspoons toasted sesame oil</li>
+                                            <li class="reci">1/2 teaspoon sugar</li>
+                                            <li class="reci">1 cup water</li>
+                                            <li class="reci">1 1/2 pounds boneless, skinless chicken thighs (about 6
+                                                small thighs)</li>
+                                            <li class="reci">2 tablespons vegetable oil</li>
+                                            <li class="reci">1 (2-inch) piece of fresh ginger, washed and cut into
+                                                1/4-inch coins</li>
+                                            <li class="reci">5 cloves garlic, peeled and lightly smashed</li>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <h4 style="font-family: thebold;">FOR KALE</h4>
+                                            <li class="reci">1 tablespoon vegetable oil</li>
+                                            <li class="reci">1/2 cup cabbage kimchi, chopped</li>
+                                            <li class="reci">4 ounces kale leaves, thick ribs and stems removed, chopped
+                                                (5 cups chopped)</li>
+                                            <li class="reci">3/4 cup water</li>
+                                            <li class="reci">1/2 teaspoon soy sauce</li>
+                                            <li class="reci">12 small slider buns or dinner rolls</li>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Instructions</h3>
+                                            <p class="reci">1: In a small bowl, whisk together the gochujang, vinegar,
+                                                soy sauce, sesame oil, and sugar until smooth. Whisk in the water and
+                                                set aside.</p>
+                                            <p class="reci">2: In a 10-inch pot or Dutch oven, heat the oil over
+                                                medium-high heat. Working in batches, brown the chicken thighs and set
+                                                aside on a plate.</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <p class="reci">3: Pour the gochujang mixture into the pot and stir,
+                                                scraping up any browned bits from the bottom. Add the ginger and garlic,
+                                                followed by the chicken and any accumulated juices. Arrange the chicken
+                                                in a single layer in the pot and bring mixture to a boil. Lower heat,
+                                                cover and let simmer for 30 minutes, turning chicken halfway through
+                                                cooking. Remove from heat and let sit, covered, for 15 minutes.</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <p class="reci">4: Meanwhile, make the kale. In a large skillet with a lid,
+                                                warm the oil over medium-high heat. Add the kimchi and stir-fry for
+                                                about 30 seconds, until hot and fragrant. Addthe kale, water, and soy
+                                                sauce, and stir to combine. Bring to a boil, then lower heat, and cover.
+                                                Simmer covered for 30 minutes, or until kale is very tender. Taste and
+                                                add more soy sauce if needed. (If making ahead, kale mixture can be
+                                                covered and refrigerated at this point.)</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <p class="reci">5: Transfer the chicken thighs to a bowl and use two forks
+                                                to shred meat. Pour 1/4 cup of the braising liquid over the meat and
+                                                mix. (If making ahead, chicken can be covered and refrigerated at this
+                                                point. Reheat before assembling sliders.)</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <p class="reci">6: To assemble, place a sheet pan in the oven and preheat to
+                                                350°F. Arrange slider buns cut-side down on preheated sheet pan and bake
+                                                for 3 to 5 minutes, until lightly toasted. Spread mayonnaise on the
+                                                bottom bun and top with the chicken, followed by the kale mixture and
+                                                top bun. Repeat with remaining buns. Serve immediately.</p>
+                                            <div class="d-flex flex-wrap text-align-center justify-content-center">
+                                                <span style="font-family: thebold;"><img
+                                                        src="https://img.icons8.com/fluent-systems-filled/48/000000/circled-left-2--v2.png"
+                                                        height="20" />RETURN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <center>
+                            <h1 style="font-family: billy; font-size: 60px;">Pakory</h1>
+                        </center>
+                    </div>
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\PAKOORA/ndsjd.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\PAKOORA/ndsjd.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\Healthy Snacks\PAKOORA/ndsjd.jpg" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Ingredients</h3>
+                                            <li class="reci">1 small ~90g onion (thinly sliced)</li>
+                                            <li class="reci">1 small potato (~100g depending on potato type) (cut twice
+                                                in half lengthwise and sliced)</li>
+                                            <li class="reci">green chilli (if large and spicy, only need 1), chopped
+                                            </li>
+                                            <li class="reci">green coriander handful of leaves, chopped</li>
+                                            <li class="reci">1 tsp cumin (zeera)</li>
+                                            <li class="reci">1 tsp crushed red chili</li>
+                                            <li class="reci">1/2 tbsp (heaped) whole coriander seeds roughly crushed
+                                            </li>
+                                            <li class="reci">1/2 tsp khatai powder (amchur)</li>
+                                            <li class="reci">less than 1/8 tsp baking soda</li>
+                                            <li class="reci">1 tsp corn flour (cornstarch)</li>
+                                            <li class="reci">1 1/8 or 1 1/4 tsp salt (I prefer 1 1/8 tsp)</li>
+                                            <li class="reci">1 cup gram flour (besan)</li>
+                                            <li class="reci">3/4 cup water</li>
+                                            <li class="reci">oil (as needed for deep frying)</li>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Instructions</h3>
+                                            <p class="reci">1: Pour the oil in your deep fryer/wok and heat on low
+                                                flame.</p>
+                                            <p class="reci">2: Chop the onion, potato, green chili and green coriander
+                                                and combine in a mixing bowl.</p>
+                                            <p class="reci">3: Add the cumin, crushed red chili, coriander seeds, khatai
+                                                powder, baking soda, corn flour, salt and gram flour. Mix together.</p>
+                                            <p class="reci">4: Slowly add in the water and mix.</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <p class="reci">5: Increase heat to medium flame.</p>
+                                            <p class="reci">6: Use a tablespoon to put tablespoonfuls of batter into the
+                                                oil.</p>
+                                            <p class="reci">7: Fry until golden brown and crispy, turning as needed to
+                                                cook evenly.</p>
+                                            <p class="reci">8: Drain on paper towels before serving.</p>
+                                            <div class="d-flex flex-wrap text-align-center justify-content-center">
+                                                <span style="font-family: thebold;"><img
+                                                        src="https://img.icons8.com/fluent-systems-filled/48/000000/circled-left-2--v2.png"
+                                                        height="20" />RETURN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <center>
+                            <h1 style="font-family: billy; font-size: 60px;">Turkish Noodles</h1>
+                        </center>
+                    </div>
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\KIDS/crispy-chilli-turkey-noodles/chicken-pho-5fb5771.webp"
+                                                class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\KIDS/crispy-chilli-turkey-noodles/crispy-chilli-turkey-noodles.webp"
+                                                class="w-100" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="Recipes\KIDS/crispy-chilli-turkey-noodles/thai-noodle-soup-with-salmon-b716c55.webp"
+                                                class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Ingredients</h3>
+                                            <li class="reci">2 tbsp sesame oil</li>
+                                            <li class="reci">500g turkey mince</li>
+                                            <li class="reci">5cm piece ginger, grated</li>
+                                            <li class="reci">1 large garlic clove, crushed</li>
+                                            <li class="reci">3 tbsp honey</li>
+                                            <li class="reci">3 tbsp soy sauce</li>
+                                            <li class="reci">1 tbsp hot sriracha chilli sauce</li>
+                                            <li class="reci">2 limes, juiced, plus wedges to serve (optional)</li>
+                                            <li class="reci">2 large carrots, peeled and cut into matchsticks</li>
+                                            <li class="reci">4 spring onions, shredded</li>
+                                            <li class="reci">1 small bunch coriander, sliced (optional)</li>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <h3 style="font-family: bland; font-size: 50px;">Instructions</h3>
+                                            <p class="reci">1: Heat 1 tbsp oil in a large non-stick frying pan over a
+                                                high heat. Once hot, add the turkey mince to the pan and fry for 10-12
+                                                mins until golden brown and crispy, breaking up the meat with a wooden
+                                                spoon as you go. Add the ginger and garlic to the pan and cook for 1
+                                                min. Stir in the honey, soy and chilli sauce and cook for 2 mins.</p>
+                                        </div>
+                                        <div class="swiper-slide text">
+                                            <p class="reci">2: Meanwhile, bring a large pan of water to the boil, add
+                                                the noodles and cook following pack instructions. Drain and toss the
+                                                noodles with the remaining 1 tbsp oil and all the lime juice, then
+                                                divide between bowls. Top with the crispy turkey mince, carrot, onion
+                                                and coriander. Serve with extra lime wedges for squeezing over.</p>
+                                            <div class="d-flex flex-wrap text-align-center justify-content-center">
+                                                <span style="font-family: thebold;"><img
+                                                        src="https://img.icons8.com/fluent-systems-filled/48/000000/circled-left-2--v2.png"
+                                                        height="20" />RETURN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container" id="new_recipe">
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <br>
+                </div>
+                <div class="col-md-2 w-100" id="headlines">
+                    <br>
+                    <h4 style="font-family: ssign; font-size: 35px;" class="text-center">Cooking Video</h4>
+                    <video src="videos/mixing.mp4" autoplay loop muted class="w-100"></video>
+                    <br>
+                    <br>
+                    <h4 style="font-family: ssign; font-size: 35px;" class="text-center">Featured Recipe</h4>
+                    <li style="list-style: none;font-weight: bolder;">Club Sandwiches</li>
+                    <li style="list-style: none;font-weight: bolder;">Potato Chips</li>
+                    <li style="list-style: none;font-weight: bolder;">Chicken Sticks</li>
+                    <li style="list-style: none;font-weight: bolder;">Samoosa</li>
+                    <li style="list-style: none;font-weight: bolder;">Noodles</li>
+                    <li style="list-style: none;font-weight: bolder;">Blueberry Smoothie</li>
+                    <li style="list-style: none;font-weight: bolder;">Strawberry Smoothie</li>
+                    <li style="list-style: none;font-weight: bolder;">Vanilla Shakes</li>
+                    <li style="list-style: none;font-weight: bolder;">Salad</li>
+                    <br>
+                    <br>
+                    <h4 style="font-family: ssign; font-size: 35px;" class="text-center">FAQ</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus necessitatibus nemo voluptatem
+                        eligendi dicta dolor odio ad ipsa beatae quo.</p>
+                    <br>
+                    <h4 style="font-family: ssign; font-size: 35px;" class="text-center">Social Media</h4>
+                    <center>
+                        <i class="fab fa-facebook" style="color: #3b5998;"></i>
+                        <i class="fab fa-whatsapp pl-3" style="color: #25d366;"></i>
+                        <i class="fab fa-twitter pl-3" style="color: #00acee;"></i>
+                        <i class="fab fa-instagram pl-3" style="color: #8a3ab9;"></i>
+                    </center>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 p-5" id="formuploadreci">
+                    <form>
+                        <div class="form-group">
+                            <label>Recipe Name</label>
+                            <input type="text" class="form-control w-50" id="" aria-describedby="emailHelp"
+                                placeholder="Enter A Recipe Name">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Detail</label>
+                            <input type="text" class="form-control w-50" id="" placeholder="">
+                        </div>
+                        <div>
+                            <input type="file" name="" id="imag">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="button" id="add_recipe" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        $("#imag").change(function (e) {
+            $("#add_recipe").click(function () {
+                var src = URL.createObjectURL(e.target.files[0]);
+                $("#new_recipe").append('<div class=""><center><h1 style="font-family: billy; font-size: 60px;">Pakory</h1></center> </div> <div class="container "><div class="row"><div class="col-md-6"><div class="swiper-container"><div class="swiper-wrapper"><div class="swiper-slide"><img src="' + src + '" class="w-100" alt=""></div><div class="swiper-slide"><img src="Recipes\Healthy Snacks\PAKOORA/ndsjd.jpg" class="w-100" alt=""></div><div class="swiper-slide"><img src="Recipes\Healthy Snacks\PAKOORA/ndsjd.jpg" class="w-100" alt=""></div></div></div></div><div class="col-md-6"><div class="swiper-container"><div class="swiper-wrapper"><div class="swiper-slide text"><h3 style="font-family: bland; font-size: 50px;">Ingredients</h3><li class="reci">1 small ~90g onion (thinly sliced)</li><li class="reci">1 small potato (~100g depending on potato type) (cut twicein half lengthwise and sliced)</li><li class="reci">green chilli (if large and spicy, only need 1), chopped </li> <li class="reci">3/4 cup water</li><li class="reci">oil (as needed for deep frying)</li> </div><div class="swiper-slide text"><h3 style="font-family: bland; font-size: 50px;">Instructions</h3><p class="reci">4: Slowly add in the water and mix.</p></div> <div class="swiper-slide text"> <p class="reci">5: Increase heat to medium flame.</p><p class="reci">6: Use a tablespoon to put tablespoonfuls of batter into the oil.</p><p class="reci">7: Fry until golden brown and crispy, turning as needed tocook evenly.</p><p class="reci">8: Drain on paper towels before serving.</p><div class="d-flex flex-wrap text-align-center justify-content-center"><span style="font-family: thebold;"><img src="https://img.icons8.com/fluent-systems-filled/48/000000/circled-left-2--v2.png"height="20" />RETURN</span></div></div></div></div></div></div></div>')
+            })
+        })
+
+    </script>
+
+   <div class="container-fluid mt-5">
+       <div class="row">
+           <img src="img/line.png" class="w-100" alt="">
+       </div>
+   </div>
+
+
+    <div class="rating_section">
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/feedback03.jpg" class="w-100 mt-5" height="" alt="">
+                </div>
+                <div class="col-md-6">
+                    <center>
+                        <img src="favicon.png" height="80" alt="">
+                    </center>
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <label for="">First Name</label>
+                            <input type="text" id="pehlaname" name="name" placeholder="First Name"
+                                class="form-control form-group" required="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="">Last Name</label>
+                            <input type="text" id="akhriname" name="name" placeholder="First Name"
+                                class="form-control form-group" required="">
+                        </div>
+                    </div>
+                    <label for="">Email Address</label>
+                    <input type="email" name="email" placeholder="Email" class="form-control form-group" id=""
+                        required="">
+                    <label for="">Rating</label>
+                    <select name="" class="form-control" required="" id="selectopt">
+                        <option selected>Excellent</option>
+                        <option>Good</option>
+                        <option>Bad</option>
+                    </select>
+                    <label class="mt-4" for="">Leave A Comment</label>
+                    <textarea name="" class="form-control" style="resize: none;" id="reviewkaro"
+                        placeholder="QuickSnacks is the best website ." cols="30" rows="10"></textarea>
+                    <div class="mt-2">
+                        <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Confirm</label> -->
+                        <!-- <div class="g-recaptcha" data-sitekey="6Lcw0L0aAAAAANaRXhWllRIvMxASyceP8EaOa3zA"></div> -->
+                    </div>
+                    <button class="btn btn-warning" id="review_btn" style="letter-spacing: 5px;">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $("#review_btn").click(function () {
+
+
+                    var fname = $("#pehlaname").val();
+                    var lname = $("#akhriname").val();
+                    var rev = $("#reviewkaro").val();
+                    var selectopt = $("#selectopt").val();
+                    $("#reviews").append('<div class="col-md-1-12 ml-3"><div class="card"> <div class="card-body"><h3 class="card-title" style="font-family: thebold ;">' + fname + lname + '</h3><p class="card-text" style="font-style: italic;">' + rev + '</p><p class="card-text"> <span style="color: orange;"><b> Rating : </b></span>' + selectopt + '</p></div></div></div>')
+
+
+                })
+            })
+        </script>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Rabeet
+                                Ahmed</h3>
+                            <p class="card-text" style="font-style: italic;">Best Website ever i love this blog and i
+                                really enjoy of this .</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Exellent</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Anas
+                                Khan
+                            </h3>
+                            <p class="card-text" style="font-style: italic;">wah bete wah moj kardi sir apne to kya hi
+                                baat hai apki</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Good</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                                Reficon
+                            </h3>
+                            <p class="card-text" style="font-style: italic;">kya baat hai yaar boht acha banaya hai best
+                                kar diya tmne to but me bad de raha hu hehehehheh</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Bad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Rayyan
+                                Ahmed</h3>
+                            <p class="card-text" style="font-style: italic;">Best Website ever i love this blog and i
+                                really enjoy of this .</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Exellent</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                                Hassan Ghaffari
+                            </h3>
+                            <p class="card-text" style="font-style: italic;">wah bete wah moj kardi sir apne to kya hi
+                                baat hai apki</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Good</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                                Zain
+                            </h3>
+                            <p class="card-text" style="font-style: italic;">kya baat hai yaar boht acha banaya hai best
+                                kar diya tmne to but me bad de raha hu hehehehheh</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Bad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="reviews">
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Nimra
+                                Khan</h3>
+                            <p class="card-text" style="font-style: italic;">Best Website ever i love this blog and i
+                                really enjoy of this .</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Exellent</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                                Shahrukh Khan
+                            </h3>
+                            <p class="card-text" style="font-style: italic;">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit.</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Good</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1-12 ml-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title"
+                                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                                Imran Khan
+                            </h3>
+                            <p class="card-text" style="font-style: italic;">kya baat hai yaar boht acha banaya hai best
+                                kar diya tmne to but me bad de raha hu hehehehheh</p>
+                            <p class="card-text"> <span style="color: orange;"><b> Rating : </b></span> Bad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+
+    </script>
+
+    <!-- <div id="panel" class="panel-container">
+        <strong>How satisfied are you with the UK's <br />
+            handling of the global pandemic?</strong>
+        <div class="ratings-container">
+            <div class="rating">
+                <img src="https://image.flaticon.com/icons/svg/187/187150.svg" alt="" />
+                <small>Unhappy</small>
+            </div>
+            <div class="rating">
+                <img src="https://image.flaticon.com/icons/svg/187/187136.svg" alt="" />
+                <small>Neutral</small>
+            </div>
+
+            <div class="rating active">
+                <img src="https://image.flaticon.com/icons/svg/187/187133.svg" alt="" />
+                <small>Satisfied</small>
+            </div>
+        </div>
+        <button class="btn" id="send">Send Review</button>
+    </div>
+    <script>
+        const ratings = document.querySelectorAll('rating'),
+            ratingsContainer = document.querySelector('.ratings-container'),
+            sendBtn = document.querySelector('#send'),
+            panel = document.querySelector('#panel');
+        let selectedRating = 'Satisfied';
+
+        ratingsContainer.addEventListener('click', (e) => {
+            if (e.target.parentNode.classList.contains('rating')) {
+                removeActive();
+                e.target.parentNode.classList.add('active');
+                selectedRating = e.target.nextElementSibling.innerHTML;
+            }
+        });
+
+        sendBtn.addEventListener('click', (e) => {
+            panel.innerHTML = `
+    <i class="fas fa-heart"></i>
+    <strong>Thank You!</strong>
+    <br>
+    <strong>Feedback: ${selectedRating}</strong>
+    <p>We'll send your feedback to QuickSnacks to improve our nation's chances of survival</p>
+  `;
+        });
+
+        function removeActive() {
+            for (let i = 0; i < ratings.length; i++) {
+                ratings[i].classList.remove('active');
+            }
+        }
+
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<br id="downs">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/buttons/healthysnacks.png" class="w-100 imguper" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/buttons/smoothies.png" class="w-100 imguper" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/buttons/kids.png" class="w-100 imguper" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/buttons/stomach.png" class="w-100 imguper" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+     
+    <div class="container">
+        <div class="row">
+             
+            <div class="swiper-container mt-5" style="border-radius: 50px;">
+                <div class="parallax-bg" style="background-image:url(./img/bannerrr/healthysnacksbanner.png)"
+                    data-swiper-parallax="-23%">
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="title" data-swiper-parallax="-300" style="font-family: thebold;">Healthy Snacks
+                        </div>
+                        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit,
+                                sit amet faucibus
+                                felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                                justo. Integer laoreet
+                                magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit
+                                facilisis rutrum. Ut at
+                                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero.
+                                Aenean feugiat non eros
+                                quis feugiat.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">Slide 2
+                        </div>
+                        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit,
+                                sit amet faucibus
+                                felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                                justo. Integer laoreet
+                                magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit
+                                facilisis rutrum. Ut at
+                                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero.
+                                Aenean feugiat non eros
+                                quis feugiat.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="title" data-swiper-parallax="-300">Slide 3</div>
+                        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit,
+                                sit amet faucibus
+                                felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                                justo. Integer laoreet
+                                magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit
+                                facilisis rutrum. Ut at
+                                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero.
+                                Aenean feugiat non eros
+                                quis feugiat.</p>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="swiper-pagination swiper-pagination-white"></div>
+                
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <section class="site-section">
+        <div class="container">
+            <div class="row mb-5 justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Lorem Ipsum</h2>
+                    <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsum laboriosam eaque maiores, saepe molestias fugit officiis omnis sit.
+                        Laboriosam asperiores mollitia perspiciatis quia,</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                    <div class="owl-carousel slide-one-item-alt">
+                        <img src="Recipes/Smoothies/Blueberry Smoothies/image (4).webp" alt="Image" class="img-fluid">
+                        <img src="Recipes/Smoothies/Blueberry Smoothies/image (3).webp" alt="Image" class="img-fluid">
+                        <img src="Recipes/Smoothies/Blueberry Smoothies/image (1).webp" alt="Image" class="img-fluid">
+                        <img src="Recipes/Smoothies/Blueberry Smoothies/image (2).webp" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="custom-direction">
+                        <a href="#" class="custom-prev"><i style="color: orange;"
+                                class="fas fa-arrow-left"></i></span></a>
+                        <a href="#" class="custom-next"><span><i style="color: orange;"
+                                    class="fas fa-arrow-right"></i></span></a>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                    <div class="owl-carousel slide-one-item-alt-text">
+                        <div>
+                            <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Blueberry
+                                    Smoothies</span> </h2>
+                            <p class="lead">A delicious way to use up your blueberries!
+                            </p>
+                            <p>
+                                By the Technique of Quick Snacks</p>
+                            <h2 class="section-title mb-3"> <span
+                                    style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                            <p>1 ¼ cups Ocean Spray® Blueberry Juice Cocktail, chilled</p>
+                            <p>¾ cup Ocean Spray® Fresh Blueberries, cleaned and rinsed</p>
+                            <p>1 cup vanilla yogurt or vanilla frozen yogurt</p>
+                            <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                    Time Taken</span> </h2>
+                            <p> 5 to 10 Minutes</p>
+                            <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                            style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                        </div>
+                        <div>
+                            <h2 class="section-title mb-3"> <span
+                                    style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                            <p class="lead" style="font-family: wish;">Step 1</p>
+                            <p>Combine blueberry juice cocktail and blueberries in a blender.</p>
+                            <p class="lead" style="font-family: wish;">Step 2</p>
+                            <p>Cover; blend on high speed until mixture is smooth.</p>
+                            <p class="lead" style="font-family: wish;">Step 3</p>
+                            <p>Add yogurt; blend until thoroughly combined.</p>
+                            <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                            style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                        </div>
+                        <div>
+                            <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                    Of Serve</span> </h2>
+                            <p>1 Person</p>
+                            <h2 class="section-title mb-3"> <span
+                                    style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                            <p> 5 to 10 Minutes</p>
+                            <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                            style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <footer class="site-footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">QuickSnacks <i>Made By Our Team </i> for Traditionally, snacks are
+                        prepared from ingredients commonly available at home without a great deal of preparation. Often
+                        cold cuts, fruits, leftovers, nuts, sandwiches, and sweets are used as snacks. With the spread
+                        of convenience stores, packaged snack foods became a significant business.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="healthysnacks.html">Healty Snacks</a></li>
+                        <li><a href="snackkids.html">Snacks For Kids</a></li>
+                        <li><a href="stomach.html">Easy On Stomach</a></li>
+                        <li><a href="smoothies.html">Smoothies</a></li>
+                        <li><a href="recipe.html">Add Your Category</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#AboutAdd">About Us</a></li>
+                        <li><a href="#ContactUs">Contact Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="recipe.html">Recipies</a></li>
+                        <li><a
+                                href="https://www.privacypolicygenerator.info/live.php?token=DM1dmue2qKFpGy6lRABszBf6rOiQdlCh">Privacy
+                                Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Quick Snaks</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/rabeetahmed786"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="twitter" target="_blank" href="https://twitter.com/RabeetAhmed12"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a class="instagram" target="_blank" href="https://www.instagram.com/rabeetahmed786"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a class="youtube" target="_blank"
+                                href="https://www.youtube.com/channel/UCK6B4e5WMOiGGxdeqYq50XQ"><i
+                                    class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'slide',
+            once: false
+        });
+        var siteCarousel = function () {
+            if ($('.nonloop-block-13').length > 0) {
+                $('.nonloop-block-13').owlCarousel({
+                    center: false,
+                    items: 1,
+                    loop: true,
+                    stagePadding: 0,
+                    margin: 0,
+                    autoplay: true,
+                    nav: true,
+                    responsive: {
+                        600: {
+                            margin: 0,
+                            nav: true,
+                            items: 2
+                        },
+                        1000: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 3
+                        },
+                        1200: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 4
+                        }
+                    }
+                });
+            }
+
+            $('.slide-one-item').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                autoplay: true,
+                pauseOnHover: false,
+                nav: true,
+            });
+
+            $('.slide-one-item-alt').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+            $('.slide-one-item-alt-text').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+
+
+            $('.custom-next').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('next.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+            });
+            $('.custom-prev').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+            });
+
+        };
+        siteCarousel();
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    $("#mynav").css("background-color", "rgba(0, 0, 0,.5)");
+                }
+                else {
+                    $("#mynav").css("background-color", "transparent");
+                }
+            })
+        })
+        var preloader = document.getElementsByClassName("overlay");
+        function rabeet() {
+            preloader.style.display = 'none';
+        }
+        TweenMax.to(".tweenoverlay h1", 2, {
+            opacity: 0,
+            y: -60,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.to(".tweenoverlay", 2, {
+            delay: 1,
+            top: "-110%",
+            ease: Expo.easeInOut
+        })
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../package/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            parallax: true,
+            speed: 600,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- Start of Tawk.to Script -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/607b53ca067c2605c0c36d4f/1f3gruk2i';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!-- End of Tawk.to Script -->
+</body>
+
+</html>

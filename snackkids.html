@@ -1,0 +1,642 @@
+<html lang="en">
+
+<head>
+    <title>QuickSnacks || All About Snacks</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="rstyle.css">
+    <link rel="stylesheet" href="caro.css">
+    <script src="java/main.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Animation Links -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <!-- Swipper Slider -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+
+</head>
+
+<body onload="rabeet()">
+    <div class="tweenoverlay">
+        <h1>
+            <img src="img/kids.png" class="w-100" alt="">
+        </h1>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-sm-dark navbar-dark   fixed-top" id="mynav">
+        <a class="navbar-brand" href="index.html"> <img src="favicon.png" height="70" alt=""> </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pr-5" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html" id="link_hai" style="text-transform: uppercase;"> Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="gallery.html" id="link_hai"
+                        style="text-transform: uppercase;">Gallery</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle pl-4" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">Various</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="healthysnacks.html">Healthy Snacks</a>
+                        <a class="dropdown-item active" href="snackkids.html">Snacks For Kids</a>
+                        <a class="dropdown-item" href="stomach.html">Easy on Stomach Snacks</a>
+                        <a class="dropdown-item" href="smoothies.html">Smoothies</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="recipe.html" id="link_hai"
+                        style="text-transform: uppercase;">Recipies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.facebook.com/abdulwahab.illahi.7"
+                        id="link_hai"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.instagram.com/abdulwahab_302"
+                        id="link_hai"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://twitter.com/" id="link_hai"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Main Page -->
+    <section class="bannerkids">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-md-12 col-sm-6">
+                    <h2 data-aos="flip-up" style=" font-family: billy;font-size: 100px;">
+                        <b> Snacks For Kids</b>
+                    </h2>
+                    <p data-aos="fade-in" style="font-family: ssign, cursive; font-size: 40px;">Most often, snacks and
+                        chips have been reformulated to offer lower calories, saturated and trans fat, and/or salt. ...
+                        For instance, baked chips have been offered instead of a regular, full-fat chip. </p>
+                    <br>
+                    <span class="d-flex flex-wrap justify-content-center align-item-center mt-5">
+                        <div class="mt-5">
+                            <div class="mt-5">
+                                <a href="#nichy">
+                                    <div class="icon-scroll"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br id="nichy">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/KIDS/crispy-chilli-turkey-noodles/chicken-pho-5fb5771.webp" alt="Image"
+                        class="img-fluid">
+                    <img src="Recipes/KIDS/crispy-chilli-turkey-noodles/crispy-chilli-turkey-noodles.webp" alt="Image"
+                        class="img-fluid">
+                    <img src="Recipes/KIDS/crispy-chilli-turkey-noodles/thai-noodle-soup-with-salmon-b716c55.webp"
+                        alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Crispy Chilli
+                                Turkey Noodles</span> </h2>
+                        <p class="lead">A delicious way to use up your Noodles!
+                        </p>
+                        <p>
+                            By the Technique of Quick Snacks</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>2 tbsp sesame oil</p>
+                        <p>500g turkey mince</p>
+                        <p>5cm piece ginger, grated</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <p>1 large garlic clove, crushed</p>
+                        <p>3 tbsp honey</p>
+                        <p>3 tbsp soy sauce</p>
+                        <p>1 tbsp hot sriracha chilli sauce</p>
+                        <p>350g dried udon noodles</p>
+                        <p>2 limes, juiced, plus wedges to serve (optional)</p>
+                        <p>2 large carrots, peeled and cut into matchsticks</p>
+                        <p>4 spring onions, shredded</p>
+                        <p>1 small bunch coriander, sliced (optional)</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Heat 1 tbsp oil in a large non-stick frying pan over a high heat. Once hot, add the turkey
+                            mince to the pan and fry for 10-12 mins until golden brown and crispy, breaking up the meat
+                            with a wooden spoon as you go. Add the ginger and garlic to the pan and cook for 1 min. Stir
+                            in the honey, soy and chilli sauce and cook for 2 mins.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Meanwhile, bring a large pan of water to the boil, add the noodles and cook following pack
+                            instructions. Drain and toss the noodles with the remaining 1 tbsp oil and all the lime
+                            juice, then divide between bowls</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>2 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p> 642 Cal</p>
+                        <p> 12 Sug</p>
+                        <p> 55 Veg</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- <div class="conatiner" id="variouscat">
+        <section id="paralex">
+            <div class="parallax-header2">
+                <h1 style="font-weight: bolder;color: white;font-family: bland;font-size: 120px;">
+                    Best Healthy Snacks Here</h1>
+            </div>
+        </section>
+    </div> -->
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/KIDS/Easy Singapore noodles/singapore-noodles-0cd04ed.webp" alt="Image"
+                        class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Singapore
+                                Noodles</span> </h2>
+                        <p class="lead">A delicious way to use up your blueberries!
+                        </p>
+                        <p>
+                            By the Technique of Quick Snacks</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>200g vermicelli rice noodles</p>
+                        <p>1 tbsp mild curry powder</p>
+                        <p>¼ tsp turmeric</p>
+                        <p>2½ tbsp low-salt soy sauce</p>
+                        <p>1 tbsp sunflower or vegetable oil</p>
+                        <p>1 onion , sliced</p>
+                        <p>1 red chilli , sliced (optional)</p>
+
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Boil the kettle and put the noodles in a large pan or bowl. Pour over enough boiled water to
+                            cover, pushing the noodles under the water to help them soften evenly. Set aside for 5-10
+                            mins, until the noodles are completely soft. Mix the curry powder, turmeric, sugar, sesame
+                            oil, soy sauce and 1 tbsp water in a bowl.</p>
+                        <p>Heat the wok until very hot. Add the sunflower oil, onion and pepper. Stir-fry for 3-4 mins
+                            until softened and starting to brown in places. Drain the noodles and add to the pan, along
+                            with the sauce mixture and beansprouts. Stir-fry for a further 3-4 mins, tossing everything
+                            through the sauce, until hot. Adjust the seasoning with a little more soy or sugar, if you
+                            like, and scatter over the chilli, if you like more spice.</p>
+                        <p>Add yogurt; blend until thoroughly combined.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p> 551 Cal</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 10 to 20 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/Smoothies/Blueberry Smoothies/image (4).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/Blueberry Smoothies/image (3).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/Blueberry Smoothies/image (1).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/Blueberry Smoothies/image (2).webp" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Blueberry
+                                Smoothies</span> </h2>
+                        <p class="lead">A delicious way to use up your blueberries!
+                        </p>
+                        <p>
+                            By the Technique of Quick Snacks</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>1 ¼ cups Ocean Spray® Blueberry Juice Cocktail, chilled</p>
+                        <p>¾ cup Ocean Spray® Fresh Blueberries, cleaned and rinsed</p>
+                        <p>1 cup vanilla yogurt or vanilla frozen yogurt</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Combine blueberry juice cocktail and blueberries in a blender.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Cover; blend on high speed until mixture is smooth.</p>
+                        <p class="lead" style="font-family: wish;">Step 3</p>
+                        <p>Add yogurt; blend until thoroughly combined.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/KIDS/Mackerel club sandwich/mackerel-club-sandwich-a839d74.webp" alt="Image"
+                        class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Mackerel Club
+                                Sandwitch</span> </h2>
+                        <p>
+                            By the Technique of Quick Snacks</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>4rashers smoked streaky bacon</p>
+                        <p>4 mackerel fillets, pin bones removed</p>
+                        <p>3 tbsp olive oil</p>
+                        <p>2 eggs , boiled for 9 mins, cooled and peeled</p>
+                        <p>6 slices of good quality bread (sourdough works well)</p>
+                        <p>2 tomatoes , sliced and lightly salted</p>
+                        <p>1 Little Gem lettuce , leaves separated</p>
+                        <p>2 tsp capers , chopped</p>
+
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>To make the tartare sauce, mix the dill, capers, gherkins, lemon zest, mayo and horseradish
+                            together and set aside. Can be made a day ahead and chilled.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Heat the grill to high. Grill the bacon for 8-10 mins, turning halfway, until crisp. Remove
+                            from the tray and keep warm. Lay the mackerel skin-side up in the bacon fat, drizzle theskin
+                            with a little olive oil and season with salt, then grill for 5 mins until the skin is crisp
+                            and the flesh can be flaked..</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p> 162 Cal</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Site footer -->
+    <footer class="site-footer" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">QuickSnacks <i>Made By Our Team </i> for Traditionally, snacks are
+                        prepared from ingredients commonly available at home without a great deal of preparation. Often
+                        cold cuts, fruits, leftovers, nuts, sandwiches, and sweets are used as snacks. With the spread
+                        of convenience stores, packaged snack foods became a significant business.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="healthysnacks.html">Healty Snacks</a></li>
+                        <li><a href="snackkids.html">Snacks For Kids</a></li>
+                        <li><a href="stomach.html">Easy On Stomach</a></li>
+                        <li><a href="smoothies.html">Smoothies</a></li>
+                        <li><a href="recipe.html">Add Your Category</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#AboutAdd">About Us</a></li>
+                        <li><a href="#ContactUs">Contact Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="recipe.html">Recipies</a></li>
+                        <li><a
+                                href="https://www.privacypolicygenerator.info/live.php?token=DM1dmue2qKFpGy6lRABszBf6rOiQdlCh">Privacy
+                                Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Quick Snacks</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/rabeetahmed786"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="twitter" target="_blank" href="https://twitter.com/RabeetAhmed12"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a class="instagram" target="_blank" href="https://www.instagram.com/rabeetahmed786"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a class="youtube" target="_blank"
+                                href="https://www.youtube.com/channel/UCK6B4e5WMOiGGxdeqYq50XQ"><i
+                                    class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'slide',
+            once: false
+        });
+        var siteCarousel = function () {
+            if ($('.nonloop-block-13').length > 0) {
+                $('.nonloop-block-13').owlCarousel({
+                    center: false,
+                    items: 1,
+                    loop: true,
+                    stagePadding: 0,
+                    margin: 0,
+                    autoplay: true,
+                    nav: true,
+                    responsive: {
+                        600: {
+                            margin: 0,
+                            nav: true,
+                            items: 2
+                        },
+                        1000: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 3
+                        },
+                        1200: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 4
+                        }
+                    }
+                });
+            }
+
+            $('.slide-one-item').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                autoplay: true,
+                pauseOnHover: false,
+                nav: true,
+            });
+
+            $('.slide-one-item-alt').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+            $('.slide-one-item-alt-text').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+
+
+            $('.custom-next').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('next.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+            });
+            $('.custom-prev').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+            });
+
+        };
+        siteCarousel();
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    $("#mynav").css("background-color", "rgba(0, 0, 0,.5)");
+                }
+                else {
+                    $("#mynav").css("background-color", "transparent");
+                }
+            })
+        })
+        var preloader = document.getElementsByClassName("overlay");
+        function rabeet() {
+            preloader.style.display = 'none';
+        }
+        TweenMax.to(".tweenoverlay h1", 2, {
+            opacity: 0,
+            y: -60,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.to(".tweenoverlay", 2, {
+            delay: 1,
+            top: "-110%",
+            ease: Expo.easeInOut
+        })
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../package/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- Start of Tawk.to Script -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/607b53ca067c2605c0c36d4f/1f3gruk2i';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!-- End of Tawk.to Script -->
+</body>
+
+</html>

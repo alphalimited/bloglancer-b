@@ -1,0 +1,715 @@
+<html lang="en">
+
+<head>
+    <title>QuickSnacks || All Aout Snacks</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="rstyle.css">
+    <link rel="stylesheet" href="caro.css">
+    <script src="java/main.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Animation Links -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <!-- Swipper Slider -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+
+</head>
+
+<body onload="rabeet()">
+    <div class="tweenoverlay">
+        <h1>
+            <img src="img/qssmoothie.png" class="w-100" alt="">
+        </h1>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-sm-dark navbar-dark   fixed-top" id="mynav">
+        <a class="navbar-brand" href="index.html"> <img src="favicon.png" height="70" alt=""> </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pr-5" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html" id="link_hai" style="text-transform: uppercase;"> Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="gallery.html" id="link_hai"
+                        style="text-transform: uppercase;">Gallery</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle pl-4" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">Various</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="healthysnacks.html">Healthy Snacks</a>
+                        <a class="dropdown-item" href="snackkids.html">Snacks For Kids</a>
+                        <a class="dropdown-item" href="stomach.html">Easy on Stomach Snacks</a>
+                        <a class="dropdown-item active" href="smoothies.html">Smoothies</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="recipe.html" id="link_hai"
+                        style="text-transform: uppercase;">Recipies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.facebook.com/abdulwahab.illahi.7"
+                        id="link_hai"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.instagram.com/abdulwahab_302"
+                        id="link_hai"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://twitter.com/" id="link_hai"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Main Page -->
+    <section class="bannersmoothies">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-md-12 col-sm-6">
+                    <h2 data-aos="flip-up" style=" font-family: billy;font-size: 100px;">
+                        <b> Smoothies</b>
+                    </h2>
+                    <p data-aos="fade-in" style="font-family: ssign, cursive; font-size: 40px;">A smoothie is a drink
+                        made from pureed raw fruit and/or vegetables, using a blender. A smoothie often has a liquid
+                        base such as fruit juice, dairy products, such as milk, yogurt, ice cream or cottage cheese.
+                    </p>
+                    <br>
+                    <span class="d-flex flex-wrap justify-content-center align-item-center mt-5">
+                        <div class="mt-5">
+                            <div class="mt-5">
+                                <a href="#nichy">
+                                    <div class="icon-scroll"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br id="nichy">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/Smoothies/Blueberry Smoothies/image (4).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/Blueberry Smoothies/image (3).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/Blueberry Smoothies/image (1).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/Blueberry Smoothies/image (2).webp" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Blueberry
+                                Smoothies</span> </h2>
+                        <p class="lead">A delicious way to use up your blueberries!
+                        </p>
+                        <p>
+                            By the Technique of <b>Quick Snacks</b> </p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>1 ¼ cups Ocean Spray® Blueberry Juice Cocktail, chilled</p>
+                        <p>¾ cup Ocean Spray® Fresh Blueberries, cleaned and rinsed</p>
+                        <p>1 cup vanilla yogurt or vanilla frozen yogurt</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Combine blueberry juice cocktail and blueberries in a blender.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Cover; blend on high speed until mixture is smooth.</p>
+                        <p class="lead" style="font-family: wish;">Step 3</p>
+                        <p>Add yogurt; blend until thoroughly combined.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="conatiner" id="variouscat">
+        <section id="paralex">
+            <div class="parallax-header2">
+                <h1 style="font-weight: bolder;color: white;font-family: bland;font-size: 120px;">
+                    Infinite Smoothies Collection</h1>
+            </div>
+        </section>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/Smoothies/chocolate shak/2a612714-ee3e-4198-89fd-3f80215c0ef6.jpg" alt="Image"
+                        class="img-fluid">
+                    <img src="Recipes/Smoothies/chocolate shak/ce213345-c2ad-4601-8b08-6a7f4658d4a4.jpg" alt="Image"
+                        class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Chocolate
+                                Shak</span> </h2>
+                        <p>
+                            By the Technique of Quick Snacks</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>3/4 cup milk</p>
+                        <p>1/4 cup chocolate-flavored syrup</p>
+                        <p>3 scoops (1/2 cup each) vanilla ice cream</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>In blender, place milk and syrup. Cover and blend on high speed 2 seconds.</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Add ice cream. Cover and blend on low speed about 5 seconds or until smooth. Pour into
+                            glasses. Serve immediately.</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>2 Person</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/Smoothies/ice cream choc/image (1).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/ice cream choc/image (2).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/ice cream choc/image (3).webp" alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/ice cream choc/image.webp" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Ice Cream
+                                Chocolate</span> </h2>
+                        <p>
+                            By the Technique of Quick Snacks</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>¾ cup sugar</p>
+                        <p>1 cup milk</p>
+                        <p>¼ teaspoon salt</p>
+                        <p>2 tablespoons unsweetened cocoa powder</p>
+                        <p>3 egg yolk, lightly beaten</p>
+                        <p>2 ounces semisweet chocolate, chopped</p>
+                        <p>2 cups heavy cream</p>
+
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Combine sugar, milk, salt, and cocoa powder in a saucepan over medium heat, stirring
+                            constantly. Bring to a simmer. Place the egg yolks into a small bowl. Gradually stir in
+                            about 1/2 cup of the hot liquid. and return to the saucepan. Heat until thickened, but do
+                            not boil. Remove from the heat, and stir in the chopped chocolate until chocolate is melted.
+                            Pour into a chilled bowl, and refrigerate for about two hours until cold, stirring
+                            occasionally.
+                        </p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>When chocolate mixture has completely cooled, stir in the cream, and vanilla. Pour into an
+                            ice cream maker, and freeze according to manufacturer's directions.
+                        </p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p> 50% Fat</p>
+                        <p> 10% Pwr</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/Smoothies/vallina shak/190523-vanilla-milkshake-050-square-1559169406.png"
+                        alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/vallina shak/Classic-Vanilla-Milkshake-1-700px.jpg" alt="Image"
+                        class="img-fluid">
+                    <center>
+                        <img src="Recipes/Smoothies/vallina shak/Classic-Vanilla-Milkshake-3-700px.jpg" alt="Image"
+                            class="img-fluid w-75">
+                    </center>
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Vanilla
+                                Shake</span> </h2>
+                        <p>
+                            By the Technique of Quick Snacks</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>1 ½ cup vanilla ice cream</p>
+                        <p>1 cup whole milk</p>
+                        <p>½ tsp vanilla extract</p>
+                        <p>whipped cream (optional)</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">All Steps</p>
+                        <p>Make sure vanilla ice cream and milk are completely cold. </p>
+                        <p>Place the cold vanilla ice cream and whole milk in the blender. </p>
+                        <p>Add in vanilla extract.
+                            Blend for 20 to 30 seconds. </p>
+                        <p>Divide between two very cold glasses. </p>
+                        <p>Top with whipped cream and berries. </p>
+                        <p class="lead" style="font-family: wish;">Notes</p>
+
+                        <p>
+                            For creamy milkshake, make sure you use full fat ice cream and whole milk.
+                            For a thicker milkshake, add 1 cup of ice to the ingredients in the blender. </p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p> 30% FAT</p>
+                        <p> 70% Energy</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                <div class="owl-carousel slide-one-item-alt">
+                    <img src="Recipes/Smoothies/strawberry shak/k_archive_98697a8b6eb8e486901bf7e05a4980ec70c08cd1.jpg"
+                        alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/strawberry shak/k_archive_9f9f6792bf2831a4e1134599e8011a9e1b90ad49.jpg"
+                        alt="Image" class="img-fluid">
+                    <img src="Recipes/Smoothies/strawberry shak/k_archive_fbb0514eef58c8af45e01c0a0212b4f17b0fa23d.jpg"
+                        alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-carousel slide-one-item-alt-text">
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: ssign; font-size: 50px;">Strawberry
+                                Shake</span> </h2>
+                        <p class="lead">A delicious way to use up your Strawberries!
+                        </p>
+                        <p>
+                            By the Technique of Quick Snacks</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Ingredients</span> </h2>
+                        <p>8 ounces fresh strawberries, plus more for garnish</p>
+                        <p>2 tablespoons granulated sugar</p>
+                        <p>1 teaspoon vanilla extract</p>
+                        <p>3/4 to 1 cup whole milk</p>
+                        <p>1 tablespoon malted milk powder or regular powdered milk (optional)</p>
+                        <p>1 pint high-quality strawberry ice cream (no fake flavors or dye)</p>
+
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 1</p>
+                        <p>Prepare and freeze the strawberries. Hull 8 ounces strawberries, then thinly slice them.
+                            Place in a medium bowl, sprinkle with 2 tablespoons granulated sugar and 1 teaspoon vanilla
+                            extract, and toss to combine. Place in the freezer for about 1 hour..</p>
+                        <p class="lead" style="font-family: wish;">Step 2</p>
+                        <p>Freeze the glasses. Meanwhile, place 2 pint glasses or 4 smaller glasses in the freezer to
+                            chill</p>
+                        <p class="lead" style="font-family: wish;">Step 3</p>
+                        <p>Blend the strawberries and milk. Place the strawberries in a blender, and scrape in all the
+                            syrupy juice that has accumulated at the bottom of the bowl. Add 3/4 cup whole milk and
+                            blend until the strawberries are pulverized. There should be no big chunks left at all. </p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Directions</span> </h2>
+                        <p class="lead" style="font-family: wish;">Step 4</p>
+                        <p>Add the malted milk powder, if using. Add 1 tablespoons malted milk powder or powdered milk
+                            if desired and blend. (Note: The malted milk powder gives just a bit of extra depth and a
+                            hint of malty flavor without turning the shake into a true malt. If you opt to use regular
+                            powdered milk this also will just add a bit of richness and creaminess. But the powders are
+                            not necessary.)</p>
+                        <p class="lead" style="font-family: wish;">Step 5</p>
+                        <p>Add the ice cream. Take the blender jar off the base, and add 1 pint strawberry ice cream.
+                            Stir it into the milk and strawberries by hand. Blend thoroughly. If it won’t blend very
+                            well or gets stuck, carefully add up to 1/4 cup more milk. Stir or shake if necessary.</p>
+                        <p class="lead" style="font-family: wish;">Step 6</p>
+                        <p>Pour into glasses. Pour the milkshake out into the chilled glasses and garnish with
+                            strawberries. Slurp immediately!
+                        </p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+
+                    </div>
+                    <div>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Quantity
+                                Of Serve</span> </h2>
+                        <p>1 Person</p>
+                        <h2 class="section-title mb-3"> <span
+                                style="font-family: bland; font-size: 50px;">Calories</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <h2 class="section-title mb-3"> <span style="font-family: bland; font-size: 50px;">Estimated
+                                Time Taken</span> </h2>
+                        <p> 5 to 10 Minutes</p>
+                        <a href="#" class="custom-next"> <button class="btn btn-warning">NEXT &nbsp; <span><i
+                                        style="color: white;" class="fas fa-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+
+    <!-- Site footer -->
+    <footer class="site-footer" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">QuickSnacks <i>Made By Our Team </i> for Traditionally, snacks are
+                        prepared from ingredients commonly available at home without a great deal of preparation. Often
+                        cold cuts, fruits, leftovers, nuts, sandwiches, and sweets are used as snacks. With the spread
+                        of convenience stores, packaged snack foods became a significant business.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="healthysnacks.html">Healty Snacks</a></li>
+                        <li><a href="snackkids.html">Snacks For Kids</a></li>
+                        <li><a href="stomach.html">Easy On Stomach</a></li>
+                        <li><a href="smoothies.html">Smoothies</a></li>
+                        <li><a href="recipe.html">Add Your Category</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#AboutAdd">About Us</a></li>
+                        <li><a href="#ContactUs">Contact Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="recipe.html">Recipies</a></li>
+                        <li><a
+                                href="https://www.privacypolicygenerator.info/live.php?token=DM1dmue2qKFpGy6lRABszBf6rOiQdlCh">Privacy
+                                Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Quick Snacks</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/rabeetahmed786"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="twitter" target="_blank" href="https://twitter.com/RabeetAhmed12"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a class="instagram" target="_blank" href="https://www.instagram.com/rabeetahmed786"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a class="youtube" target="_blank"
+                                href="https://www.youtube.com/channel/UCK6B4e5WMOiGGxdeqYq50XQ"><i
+                                    class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'slide',
+            once: false
+        });
+        var siteCarousel = function () {
+            if ($('.nonloop-block-13').length > 0) {
+                $('.nonloop-block-13').owlCarousel({
+                    center: false,
+                    items: 1,
+                    loop: true,
+                    stagePadding: 0,
+                    margin: 0,
+                    autoplay: true,
+                    nav: true,
+                    responsive: {
+                        600: {
+                            margin: 0,
+                            nav: true,
+                            items: 2
+                        },
+                        1000: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 3
+                        },
+                        1200: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 4
+                        }
+                    }
+                });
+            }
+
+            $('.slide-one-item').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                autoplay: true,
+                pauseOnHover: false,
+                nav: true,
+            });
+
+            $('.slide-one-item-alt').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+            $('.slide-one-item-alt-text').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+
+
+            $('.custom-next').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('next.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+            });
+            $('.custom-prev').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+            });
+
+        };
+        siteCarousel();
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    $("#mynav").css("background-color", "rgba(0, 0, 0,.5)");
+                }
+                else {
+                    $("#mynav").css("background-color", "transparent");
+                }
+            })
+        })
+        var preloader = document.getElementsByClassName("overlay");
+        function rabeet() {
+            preloader.style.display = 'none';
+        }
+        TweenMax.to(".tweenoverlay h1", 2, {
+            opacity: 0,
+            y: -60,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.to(".tweenoverlay", 2, {
+            delay: 1,
+            top: "-110%",
+            ease: Expo.easeInOut
+        })
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../package/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- Start of Tawk.to Script -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/607b53ca067c2605c0c36d4f/1f3gruk2i';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!-- End of Tawk.to Script -->
+</body>
+
+</html>

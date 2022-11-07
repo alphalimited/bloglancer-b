@@ -1,0 +1,936 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>QuickSnacks || All About Snacks</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="rstyle.css">
+    <link rel="stylesheet" href="caro.css">
+    <script src="java/main.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Animation Links -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <!-- Swipper Slider -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+
+</head>
+
+<body onload="rabeet()">
+    <div class="tweenoverlay">
+        <h1>
+            <img src="img/qsgallery.png" class="w-100" alt="">
+        </h1>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-sm-dark navbar-dark fixed-top" id="mynav">
+        <a class="navbar-brand" href="index.html"> <img src="favicon.png" height="70" alt=""> </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pr-5" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html" id="link_hai" style="text-transform: uppercase;"> Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active" >
+                    <a class="nav-link pl-4" href="#gallerydash" id="link_hai"
+                        style="text-transform: uppercase;">Gallery</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle pl-4" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">Various</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="healthysnacks.html">Healthy Snacks</a>
+                        <a class="dropdown-item" href="snackkids.html">Snacks For Kids</a>
+                        <a class="dropdown-item" href="stomach.html">Easy on Stomach Snacks</a>
+                        <a class="dropdown-item" href="smoothies.html">Smoothies</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="recipe.html" id="link_hai"
+                        style="text-transform: uppercase;">Recipies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.facebook.com/abdulwahab.illahi.7" id="link_hai"><i
+                            class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://www.instagram.com/abdulwahab_302" id="link_hai"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" target="_blank" href="https://twitter.com/" id="link_hai"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="slider" data-aos="fade-down">
+        <div class="nav">
+            <div class="next"></div>
+            <div class="prev"></div>
+            <a href="#catbutngallery">
+                <div class="explore-btn">Explore</div>
+            </a>
+        </div>
+
+        <div class="item is-active">
+            <div class="content">
+                <div class="wrap">Healthy</div>
+            </div>
+            <div class="imgs">
+                <div class="grid">
+                    <div class="img img-1">
+                        <img src="img/menu2.jpg" />
+                    </div>
+                    <div class="img img-2">
+                        <img src="img/for owl/naugets.png" />
+                    </div>
+                    <div class="img img-3">
+                        <img src="img/for owl/noodles.png" />
+                    </div>
+                    <div class="img img-4">
+                        <img src="img/for owl/rols.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="content">
+                <div class="wrap">Quick</div>
+            </div>
+            <div class="imgs">
+                <div class="grid">
+                    <div class="img img-1">
+                        <img src="img/for owl/sups/salad2.jpg" />
+                    </div>
+                    <div class="img img-2">
+                        <img src="img/saladbest.jpg" />
+                    </div>
+                    <div class="img img-3">
+                        <img src="img/for owl/deserts/donut.png" />
+                    </div>
+                    <div class="img img-4">
+                        <img src="img/for owl/deserts/cookies.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="content">
+                <div class="wrap">Easy</div>
+            </div>
+            <div class="imgs">
+                <div class="grid">
+                    <div class="img img-1">
+                        <img src="img/for owl/deserts/pudding.png" />
+                    </div>
+                    <div class="img img-2">
+                        <img src="img/for owl/deserts/brownie.png" />
+                    </div>
+                    <div class="img img-3">
+                        <img src="img/for owl/deserts/macarons.png" />
+                    </div>
+                    <div class="img img-4">
+                        <img src="img/for owl/deserts/cupcakes.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br id="catbutngallery">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <h1 class="d-flex flex-wrap text-align-center justify-content-center w-100"
+                    style="font-weight: bold; text-transform: uppercase;">Categories</h1>
+                <p class="d-flex flex-wrap text-align-center justify-content-center w-100">
+                    <b> <i>
+                            Select Your Categories Here
+                        </i></b>
+                </p>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="row mb-5 justify-content-center">
+            <div class="col-md-12 text-center">
+                <div id="container">
+                    <div class="search" data-aos="fade-up" data-aos-delay="100">
+                        <input type="text" placeholder="Search Here !" onkeyup="searchbaraesy()" name="search" id="my_input" class="searchbar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <center>
+                    <a href="#nasha">
+                        <button class="btn btn-warning" data-aos="fade-up">Healthy Snacks</button>
+                    </a>
+                </center>
+            </div>
+            <div class="col-md-3">
+                <center>
+                    <a href="#kidskanasha">
+                        <button class="btn btn-warning" data-aos="fade-up">Snacks For Kids</button>
+                    </a>
+                </center>
+            </div>
+            <div class="col-md-3">
+                <center>
+                    <a href="#beat">
+                        <button class="btn btn-warning" data-aos="fade-up">Easy On Stomach</button>
+                    </a>
+                </center>
+            </div>
+            <div class="col-md-3">
+                <center>
+                    <a href="#ice">
+                        <button class="btn btn-warning" data-aos="fade-up">Smoothies</button>
+                    </a>
+                </center>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="gallery">
+            <div class="img-container">
+                <img src="img/for owl/club sadwich.png" id="nasha" alt="healthypic">
+            </div>
+            <div class="img-container">
+                <img src="img/for owl/samosa.png" alt="healthypic">
+            </div>
+            <div class="img-container">
+                <img src="img/for owl/deserts/brownie.png" />
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <video src="videos/blueberry.mp4" class="w-100" autoplay muted loop></video>
+                <div class="row">
+                    <div class="col-md-6">
+                        <br>
+                        <div class="containerim w-100">
+                            <img src="img/for owl/noodles.png" alt="healthypic" class="imageim">
+                            <div class="middleim">
+                                <a href="img/for owl/noodles.png">
+                                    <div class="textdic">View Image</div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="containerim w-100">
+                            <img src="img/for owl/rols.png" alt="healthypic" class="imageim">
+                            <div class="middleim">
+                                <a href="img/for owl/rols.png">
+                                    <div class="textdic">View Image</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <br>
+                        <div class="containerim w-100">
+                            <img src="img/for owl/naugets.png" alt="healthypic" class="imageim">
+                            <div class="middleim">
+                                <a href="img/for owl/naugets.png">
+                                    <div class="textdic">View Image</div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="containerim w-100">
+                            <img src="img/for owl/pakory.png" alt="healthypic" class="imageim">
+                            <div class="middleim">
+                                <a href="img/for owl/pakory.png">
+                                    <div class="textdic">View Image</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="img/gradients-artwork2.png">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="gallery">
+            <div class="img-container">
+                <img src="img/for owl/Fries/chicken fries.png" id="kidskanasha" alt="kidsfood">
+            </div>
+            <div class="img-container">
+                <img src="img/for owl/Fries/fries.png" alt="kidsfood">
+            </div>
+            <div class="img-container">
+                <img alt="kidsfood" src="img/for owl/Fries/tator tots.png" />
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <video src="videos/kids.mp4" alt="kidsfood" autoplay muted loop class="w-100"></video>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/for owl/pancak.webp" alt="kidsfood" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/pancak.webp">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/saladbest.jpg" class="imageim">
+                    <div class="middleim">
+                        <a href="img/saladbest.jpg">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/menu4.jpg" class="imageim">
+                    <div class="middleim">
+                        <a href="img/menu4.jpg">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/menu3.jpg" class="imageim">
+                    <div class="middleim">
+                        <a href="img/menu3.jpg">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="containerim w-100">
+                    <img src="img/for owl/peribites.png" id="beat" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/peribites.png">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/for owl/choclate.png" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/choclate.png">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+                <div class="containerim w-100">
+                    <img src="img/for owl/noodle2.png" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/noodle2.png">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/for owl/cu.webp" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/cu.webp">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="favicon.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/for owl/oranges.png" class="w-100">
+            </div>
+            <div class="col-md-8">
+                <video src="videos/anda.mp4" class="w-100" autoplay muted loop></video>
+                <div class="row">
+                    <div class="col-md-6">
+                        <br>
+                        <div class="containerim w-100">
+                            <img src="img/for owl/chery.png" id="ice" class="imageim">
+                            <div class="middleim">
+                                <a href="img/for owl/chery.png">
+                                    <div class="textdic">View Image</div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        
+                        <div class="containerim w-100">
+                            <img src="img/for owl/pud.png" class="imageim">
+                            <div class="middleim">
+                                <a href="img/for owl/pud.png">
+                                    <div class="textdic">View Image</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <br>
+                        <br>
+                        <div class="containerim w-100">
+                            <img src="img/for owl/salad.png" class="imageim">
+                            <div class="middleim">
+                                <a href="img/for owl/salad.png">
+                                    <div class="textdic">View Image</div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <div class="containerim w-100">
+                            <img src="img/for owl/pyalasalad.png" class="imageim">
+                            <div class="middleim">
+                                <a href="img/for owl/pyalasalad.png">
+                                    <div class="textdic">View Image</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <video src="videos/mixing.mp4" autoplay muted loop class="w-100"></video>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/for owl/cookie.png" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/cookie.png">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/for owl/stberyice.png" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/stberyice.png">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/for owl/deserts/pancakes.png" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/deserts/pancakes.png">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="containerim w-100">
+                    <img src="img/for owl/deserts/pudding.png" class="imageim">
+                    <div class="middleim">
+                        <a href="img/for owl/deserts/pudding.png">
+                            <div class="textdic">View Image</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="">
+        <img src="img/bannerrr/check.png" class="w-100" alt="">
+    </div>
+
+
+
+
+
+    <!-- Site footer -->
+    <footer class="site-footer" data-aos="">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">QuickSnacks <i>Made By Our Team </i> for Traditionally, snacks are
+                        prepared from ingredients commonly available at home without a great deal of preparation. Often
+                        cold cuts, fruits, leftovers, nuts, sandwiches, and sweets are used as snacks. With the spread
+                        of convenience stores, packaged snack foods became a significant business.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="healthysnacks.html">Healty Snacks</a></li>
+                        <li><a href="snackkids.html">Snacks For Kids</a></li>
+                        <li><a href="stomach.html">Easy On Stomach</a></li>
+                        <li><a href="smoothies.html">Smoothies</a></li>
+                        <li><a href="recipe.html">Add Your Category</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#AboutAdd">About Us</a></li>
+                        <li><a href="#ContactUs">Contact Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="recipe.html">Recipies</a></li>
+                        <li><a href="https://www.privacypolicygenerator.info/live.php?token=DM1dmue2qKFpGy6lRABszBf6rOiQdlCh">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Quick Snacks</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/abdulwahab.illahi.7"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="twitter" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="instagram" target="_blank" href="https://www.instagram.com/abdulwahab_302"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="youtube" target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var preloader = document.getElementsByClassName("overlay");
+        function rabeet() {
+            preloader.style.display = 'none';
+        }
+        TweenMax.to(".tweenoverlay h1", 2, {
+            opacity: 0,
+            y: -60,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.to(".tweenoverlay", 2, {
+            delay: 1,
+            top: "-110%",
+            ease: Expo.easeInOut
+        })
+        function init() {
+            const slider = document.querySelector(".slider");
+            const nextBtn = slider.querySelector(".slider .nav .next");
+            const prevBtn = slider.querySelector(".slider .nav .prev");
+            const items = slider.querySelectorAll(".slider .item");
+
+            let current = 0;
+
+            items.forEach((item) => {
+                const textWrapper = item.querySelector(".wrap");
+                textWrapper.innerHTML = textWrapper.textContent.replace(
+                    /\S/g,
+                    "<span class='letter'>$&</span>"
+                );
+            });
+
+            function anim(current, next, callback) {
+                const currentImgs = current.querySelectorAll(".img");
+                const currentText = current.querySelectorAll(".content .letter");
+                const nextImgs = next.querySelectorAll(".img");
+                const nextText = next.querySelectorAll(".content .letter");
+
+                const duration = 400;
+                const offset = "-=" + 300;
+                const imgOffset = duration * .8;
+
+                const tl = anime.timeline({
+                    easing: "easeInOutQuint",
+                    duration: duration,
+                    complete: callback
+                });
+
+                // Add children
+                tl.add({
+                    targets: currentText,
+                    translateY: [0, '-.75em'],
+                    // clipPath: ['polygon(0 0, 100% 0, 100% 100%, 0% 100%)', 'polygon(0 100%, 100% 100%, 100% 100%, 0% 100%)'],
+                    opacity: [1, 0],
+                    easing: "easeInQuint",
+                    duration: 600,
+                    delay: (el, i) => 10 * (i + 1)
+                })
+                    .add({
+                        targets: currentImgs[0],
+                        translateY: -600,
+                        rotate: [0, '-15deg'],
+                        opacity: [1, 0],
+                        easing: "easeInCubic"
+                    }, offset)
+                    .add({
+                        targets: currentImgs[1],
+                        translateY: -600,
+                        rotate: [0, '15deg'],
+                        opacity: [1, 0],
+                        easing: "easeInCubic"
+                    }, "-=" + imgOffset)
+                    .add({
+                        targets: currentImgs[2],
+                        translateY: -600,
+                        rotate: [0, '-15deg'],
+                        opacity: [1, 0],
+                        easing: "easeInCubic"
+                    }, "-=" + imgOffset)
+                    .add({
+                        targets: currentImgs[3],
+                        translateY: -600,
+                        rotate: [0, '15deg'],
+                        opacity: [1, 0],
+                        easing: "easeInCubic"
+                    }, "-=" + imgOffset)
+                    .add({
+                        targets: current,
+                        opacity: 0,
+                        duration: 10,
+                        easing: "easeInCubic"
+                    })
+                    .add({
+                        targets: next,
+                        opacity: 1,
+                        duration: 10
+                    }, offset)
+                    .add({
+                        targets: nextImgs[0],
+                        translateY: [600, 0],
+                        rotate: ['15deg', 0],
+                        opacity: [0, 1],
+                        easing: "easeOutCubic"
+                    }, offset)
+                    .add({
+                        targets: nextImgs[1],
+                        translateY: [600, 0],
+                        rotate: ['-15deg', 0],
+                        opacity: [0, 1],
+                        easing: "easeOutCubic"
+                    }, "-=" + imgOffset)
+                    .add({
+                        targets: nextImgs[2],
+                        translateY: [600, 0],
+                        rotate: ['15deg', 0],
+                        opacity: [0, 1],
+                        easing: "easeOutCubic"
+                    }, "-=" + imgOffset)
+                    .add({
+                        targets: nextImgs[3],
+                        translateY: [600, 0],
+                        rotate: ['-15deg', 0],
+                        opacity: [0, 1],
+                        easing: "easeOutCubic"
+                    }, "-=" + imgOffset)
+                    .add({
+                        targets: nextText,
+                        translateY: ['.75em', 0],
+                        /*clipPath: ['polygon(0 0, 100% 0, 100% 0, 0 0)','polygon(0 0, 100% 0, 100% 100%, 0% 100%)'],*/
+                        opacity: [0, 1],
+                        easing: "easeOutQuint",
+                        duration: 600,
+                        delay: (el, i) => 10 * (i + 1)
+                    }, offset);
+            }
+
+            let isPlaying = false;
+
+            function updateSlider(newIndex) {
+                const currentItem = items[current];
+                const newItem = items[newIndex];
+
+                function callback() {
+                    currentItem.classList.remove("is-active");
+                    newItem.classList.add("is-active");
+                    current = newIndex;
+                    isPlaying = false;
+                }
+
+                anim(currentItem, newItem, callback);
+            }
+
+            function next() {
+                if (isPlaying) return;
+                isPlaying = true;
+                const newIndex = current === items.length - 1 ? 0 : current + 1;
+                updateSlider(newIndex);
+            }
+
+            function prev() {
+                if (isPlaying) return;
+                isPlaying = true;
+                const newIndex = current === 0 ? items.length - 1 : current - 1;
+                updateSlider(newIndex);
+            }
+
+            nextBtn.onclick = next;
+            prevBtn.onclick = prev;
+        }
+
+        document.addEventListener("DOMContentLoaded", init);
+
+
+        // Navbar Black Linee
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    $("#mynav").css("background-color", "rgba(0, 0, 0,.5)");
+                }
+                else {
+                    $("#mynav").css("background-color", "transparent");
+                }
+            })
+        })
+    </script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'slide',
+            once: false
+        });
+        var siteCarousel = function () {
+            if ($('.nonloop-block-13').length > 0) {
+                $('.nonloop-block-13').owlCarousel({
+                    center: false,
+                    items: 1,
+                    loop: true,
+                    stagePadding: 0,
+                    margin: 0,
+                    autoplay: true,
+                    nav: true,
+                    navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
+                    responsive: {
+                        600: {
+                            margin: 0,
+                            nav: true,
+                            items: 2
+                        },
+                        1000: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 3
+                        },
+                        1200: {
+                            margin: 0,
+                            stagePadding: 0,
+                            nav: true,
+                            items: 4
+                        }
+                    }
+                });
+            }
+
+            $('.slide-one-item').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                autoplay: true,
+                pauseOnHover: false,
+                nav: true,
+            });
+
+            $('.slide-one-item-alt').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+            $('.slide-one-item-alt-text').owlCarousel({
+                center: false,
+                items: 1,
+                loop: true,
+                stagePadding: 0,
+                margin: 0,
+                smartSpeed: 1000,
+                autoplay: true,
+                pauseOnHover: true,
+                onDragged: function (event) {
+                    console.log('event : ', event.relatedTarget['_drag']['direction'])
+                    if (event.relatedTarget['_drag']['direction'] == 'left') {
+                        $('.slide-one-item-alt').trigger('next.owl.carousel');
+                    } else {
+                        $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                    }
+                }
+            });
+
+
+            $('.custom-next').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('next.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('next.owl.carousel');
+            });
+            $('.custom-prev').click(function (e) {
+                e.preventDefault();
+                $('.slide-one-item-alt').trigger('prev.owl.carousel');
+                $('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+            });
+
+        };
+        siteCarousel();
+    </script>
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            parallax: true,
+            speed: 600,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- <script>
+        function searchbaraesy(){
+            var filter = document.getElementById("my_input");
+        }
+    </script> -->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/607b53ca067c2605c0c36d4f/1f3gruk2i';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+</body>
+
+</html>
